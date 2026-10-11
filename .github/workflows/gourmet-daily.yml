@@ -43,7 +43,7 @@ jobs:
       - name: Prepare independent site
         run: |
           mkdir -p _site
-          cp public/* _site/
+          cp -R public/. _site/
           cp unconfirmed.json collection-report.json _site/
           touch _site/.nojekyll
       - uses: actions/configure-pages@v5
