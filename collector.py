@@ -27,6 +27,15 @@ def norm(s): return re.sub(r'\s+','',unicodedata.normalize('NFKC',s or '')).lowe
 def canonical(u):
  p=urlsplit(u);return urlunsplit((p.scheme,p.netloc,p.path.rstrip('/') or '/',p.query,''))
 def key(r):return '|'.join(map(norm,[r['name'],r['type'],r['date']]))
+def address_key(place):
+ s=unicodedata.normalize('NFKC',place or '').translate(str.maketrans('一二三四五六七八九','123456789'))
+ s=re.sub(r'〒?\d{3}-\d{4}|北海道','',s).strip()
+ m=re.search(r'(札幌市[^区\s]+区[^\s]+)',s)
+ return re.sub(r'丁目|番地?|号','-',m.group(1)).rstrip('-') if m else ''
+def name_overlap(a,b):
+ generic=r'北海道海鮮|個室居酒屋|焼き鳥食べ飲み放題'
+ a=re.sub(generic,'',norm(a));b=re.sub(generic,'',norm(b))
+ return any(a[i:i+4] in b for i in range(max(0,len(a)-3)))
 def deduplicate(items):
  records={}
  for r in items:
@@ -34,10 +43,10 @@ def deduplicate(items):
   k=key(r)
   for previous,existing in records.items():
    same_event=existing['type']==r['type'] and existing['date']==r['date']
-   same_address=norm(existing.get('place'))==norm(r.get('place')) and len(norm(r.get('place')))>12
+   same_address=bool(address_key(r.get('place'))) and address_key(existing.get('place'))==address_key(r.get('place'))
    same_url=canonical(existing.get('url',''))==canonical(r.get('url','')) and bool(r.get('url'))
    a,b=norm(existing['name']),norm(r['name'])
-   if same_event and (same_url or (same_address and min(len(a),len(b))>=4 and (a in b or b in a))):k=previous;break
+   if same_event and (same_url or (same_address and name_overlap(a,b))):k=previous;break
   if k in records:
    old=records[k]
    # Keep original id and editorial description so saved notes remain attached.
