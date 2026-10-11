@@ -1,4 +1,5 @@
 """Daily conservative collection. Ambiguous candidates never become published records."""
+import runpy
 import calendar, concurrent.futures, hashlib, json, re, time, unicodedata
 from datetime import datetime, date, timedelta, timezone
 from pathlib import Path
@@ -8,6 +9,7 @@ from bs4 import BeautifulSoup
 
 ROOT=Path(__file__).resolve().parent
 PUBLIC=ROOT/'public'
+EVENTS=runpy.run_path(str(ROOT/'official_events.py'))
 JST=timezone(timedelta(hours=9))
 FOOD=re.compile(r'飲食|レストラン|カフェ|喫茶|居酒屋|ラーメン|焼肉|焼き肉|寿司|鮨|パン|ベーカリー|スイーツ|菓子|点心|餃子|パフェ|ソフトクリーム|アイス|ヨーグルト|焼き鳥|やきとり|海鮮|そば|蕎麦|うどん|中華|イタリアン|ビストロ|バル|ケーキ|ドーナツ|ピザ|パスタ|食フェス|きのこ|牡蠣|コーヒー|珈琲|バー|食堂|グルメ|フード|物産展|焼き芋|ビール|ワイン|日本酒|カレー|おでん|団子')
 NONFOOD=re.compile(r'パーソナルジム|フィットネス|体操教室|スポーツジム|美容クリニック|美容医療|アパレル|整体|(?:APT\s*ROOM)',re.I)
@@ -22,7 +24,7 @@ SOURCE_LIST=[
  ('札幌三越','https://www.mitsukoshi.mistore.jp/sapporo.html'),
  ('丸井今井','https://www.maruiimai.mistore.jp/sapporo.html'),
  ('サッポロファクトリー','https://sapporofactory.jp/event/'),
- ('焼き芋テラス','https://sapporo-yakiimoterrace.com/')]
+ ('焼き芋テラス','https://sapporo-yakiimoterrace.com/')]+EVENTS['SOURCES']
 def norm(s): return re.sub(r'\s+','',unicodedata.normalize('NFKC',s or '')).lower()
 def canonical(u):
  p=urlsplit(u);return urlunsplit((p.scheme,p.netloc,p.path.rstrip('/') or '/',p.query,''))
@@ -46,7 +48,7 @@ def deduplicate(items):
    same_address=bool(address_key(r.get('place'))) and address_key(existing.get('place'))==address_key(r.get('place'))
    same_url=canonical(existing.get('url',''))==canonical(r.get('url','')) and bool(r.get('url'))
    a,b=norm(existing['name']),norm(r['name'])
-   if same_event and (same_url or (same_address and name_overlap(a,b))):k=previous;break
+   if same_event and ((same_url and name_overlap(a,b)) or (same_address and name_overlap(a,b))):k=previous;break
   if k in records:
    old=records[k]
    # Keep original id and editorial description so saved notes remain attached.
@@ -180,8 +182,8 @@ def run():
    links[canonical(url)]=source
    found=0
    for a in soup.select('a[href]'):
-    label=a.get_text(' ',strip=True);href=urljoin(url,a['href'])
-    if not re.search('オープン|開店|閉店|リニューアル|グルメ|フード|食|物産|スイーツ|フェス|マルシェ',label):continue
+    label=a.get_text(' ',strip=True)+' '+' '.join(img.get('alt','') for img in a.select('img'));href=urljoin(url,a['href'])
+    if not re.search('オープン|開店|閉店|リニューアル|グルメ|フード|食|物産|スイーツ|フェス|マルシェ|うまいもの|菓子|パン|珈琲|コーヒー|チョコ|ケーキ|プリン|期間限定|初登場|初上陸',label):continue
     if urlsplit(href).netloc!=urlsplit(url).netloc:continue
     if canonical(href) in links:continue
     # List and category navigation must not consume the detail-article budget.
@@ -191,7 +193,13 @@ def run():
   except Exception as e:report['sources'].append({'source':source,'ok':False,'error':type(e).__name__})
  def detail(pair):
   u,source=pair
-  try:return parse_page(get(u),u,source,t)
+  try:
+   soup=get(u)
+   event,candidate=EVENTS['parse'](soup,u,source,t)
+   if event:
+    return (event,None) if eligible(event,t) else (None,{'name':event['name'],'url':u,'source':source,'reason':'掲載期間外'})
+   if candidate:return None,candidate
+   return parse_page(soup,u,source,t)
   except Exception as e:return None,{'url':u,'source':source,'reason':type(e).__name__}
  checked=0
  with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
