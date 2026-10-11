@@ -43,7 +43,7 @@ def cache_photo(photo):
 
 def run():
  target=PUBLIC/'photos.json';old=json.loads(target.read_text());photos=old['photos'];items=json.loads((PUBLIC/'news.json').read_text())['items'];now=datetime.now(JST);report={'attempted_at':now.isoformat(),'added':[],'failures':[],'skipped':[]}
- todo=[d for d in items if d['type']=='開店' and (now.date()-timedelta(days=60)).isoformat()<=d['date']<=now.date().isoformat() and not any(matching(p,d) for p in photos) and (urlparse(d['url']).hostname in SOURCES or (urlparse(d['url']).hostname or '').endswith('.goguynet.jp')) and not re.search(r'/archives/category/|/open/[^/]+open',d['url'])][:24]
+ todo=[d for d in items if d.get('area') in ('札幌中心部','札幌市内・周辺','札幌市内（中心部以外）') and d['type']=='開店' and (now.date()-timedelta(days=60)).isoformat()<=d['date']<=now.date().isoformat() and not any(matching(p,d) for p in photos) and (urlparse(d['url']).hostname in SOURCES or (urlparse(d['url']).hostname or '').endswith('.goguynet.jp')) and not re.search(r'/archives/category/|/open/[^/]+open',d['url'])][:24]
  def discover(d):
   try:
    image=image_candidate(get(d['url']).text,d['url'],d['name'])

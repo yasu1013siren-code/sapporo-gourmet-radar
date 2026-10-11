@@ -14,7 +14,7 @@ EVENTS=runpy.run_path(str(ROOT/'official_events.py'))
 JST=timezone(timedelta(hours=9))
 FOOD=re.compile(r'飲食|レストラン|カフェ|喫茶|居酒屋|ラーメン|焼肉|焼き肉|寿司|鮨|パン|ベーカリー|スイーツ|菓子|点心|餃子|パフェ|ソフトクリーム|アイス|ヨーグルト|焼き鳥|やきとり|海鮮|そば|蕎麦|うどん|中華|イタリアン|ビストロ|バル|ケーキ|ドーナツ|ピザ|パスタ|食フェス|きのこ|牡蠣|コーヒー|珈琲|バー|食堂|グルメ|フード|物産展|焼き芋|ビール|ワイン|日本酒|カレー|おでん|団子')
 NONFOOD=re.compile(r'パーソナルジム|フィットネス|体操教室|スポーツジム|美容クリニック|美容医療|アパレル|整体|(?:APT\s*ROOM)',re.I)
-GEO=re.compile(r'札幌|小樽|石狩|江別|北広島|千歳|恵庭|苫小牧')
+GEO=re.compile(r'札幌')
 SOURCE_LIST=[
  ('札幌リスト','https://sapporo-list.info/open/'),
  ('札幌速報','https://sapporo-sokuho.com/archives/category/開店・閉店'),
@@ -65,6 +65,10 @@ def deduplicate(items):
 def shift(t,n):
  m=t.month-1+n;y=t.year+m//12;m=m%12+1
  return date(y,m,min(t.day,calendar.monthrange(y,m)[1]))
+def in_sapporo(r):
+ place=r.get("place","")
+ if re.search(r"小樽市|石狩市|江別市|北広島市|千歳市|恵庭市|苫小牧市",place):return False
+ return bool(GEO.search(place) or r.get("area") in ("札幌中心部","札幌市内・周辺","札幌市内（中心部以外）"))
 def eligible(r,t):
  try: start=date.fromisoformat(r['date']);end=date.fromisoformat(r.get('end') or r['date'])
  except (KeyError,ValueError): return False
@@ -143,7 +147,7 @@ def parse_page(soup,u,source,t):
  r={'id':int(hashlib.sha256((norm(name)+norm(place)+kind).encode()).hexdigest()[:12],16),'name':name,'type':kind,'date':dates[0],'end':dates[-1] if kind=='イベント' else '', 'place':place,'area':area(place),'genre':'グルメイベント' if kind=='イベント' else '飲食店','text':f'{dates[0]}の{kind}情報。詳細は出典を確認してください。','url':u,'source':source,'official':False,'checked_at':t.isoformat()}
  contacts=CONTACT['extract'](main,u)
  if contacts:r['contacts']={**contacts,'checked_at':t.isoformat()}
- if not eligible(r,t):return None,{**candidate,'reason':'掲載期間外・閉店済み'}
+ if not in_sapporo(r) or not eligible(r,t):return None,{**candidate,'reason':'掲載期間外・閉店済み'}
  return r,None
 def area(place):
  if '中央区' in place or re.search('大通|すすきの|中島公園|北3条広場',place):return '札幌中心部'
@@ -220,7 +224,7 @@ def run():
  atomic(ROOT/'collection-report.json',report);atomic(ROOT/'unconfirmed.json',{'checked_at':stamp,'items':pending})
  if not successes:raise RuntimeError('全情報源の取得失敗。既存公開データは保持します。')
  # Partial failures remain visible; last_success means a collection run, not every item re-verified.
- output={**old,'last_run':stamp,'status':'partial' if successes<len(report['sources']) else 'success','source_success_count':successes,'source_total':len(report['sources']),'items':list(records.values())}
+ output={**old,'last_run':stamp,'status':'partial' if successes<len(report['sources']) else 'success','source_success_count':successes,'source_total':len(report['sources']),'items':[r for r in records.values() if in_sapporo(r)]}
  atomic(PUBLIC/'news.json',output)
  print(json.dumps(report,ensure_ascii=False))
 if __name__=='__main__':run()
