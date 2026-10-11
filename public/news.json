@@ -64,13 +64,17 @@
       "name": "布袋点心舗 弁財天",
       "date": "2026-10-24",
       "area": "札幌中心部",
-      "place": "狸小路 / たぬドンダイニング",
+      "place": "札幌市中央区南3条西4丁目12-1 アルシュビル5階",
       "genre": "中華・点心",
       "text": "10月24日閉店予定との地域メディア情報。訪問前に営業を確認。",
-      "url": "https://sapporo-sokuho.com/archives/category/開店・閉店",
+      "url": "https://sapporo-sokuho.com/archives/post-112756.html",
       "source": "札幌速報",
       "official": false,
-      "checked_at": "2026-10-11"
+      "checked_at": "2026-10-11",
+      "end": "",
+      "aliases": [
+        28254997746911
+      ]
     },
     {
       "id": 6,
@@ -122,13 +126,17 @@
       "name": "ちょいおでん 札幌澄川店",
       "date": "2026-10-09",
       "area": "札幌市内・周辺",
-      "place": "南区 / 澄川4条2丁目",
+      "place": "札幌市南区澄川4条2丁目2-3 第三真耕ビル1階",
       "genre": "おでん・居酒屋",
       "text": "鱧出汁のおでんを提供する酒場。澄川エリアの新店候補。",
-      "url": "https://sapporo-list.info/open/october-open/",
-      "source": "札幌リスト",
+      "url": "https://sapporo-sokuho.com/archives/post-113454.html",
+      "source": "札幌速報",
       "official": false,
-      "checked_at": "2026-10-11"
+      "checked_at": "2026-10-11",
+      "end": "",
+      "aliases": [
+        2934616422511
+      ]
     },
     {
       "id": 199074633654163,
@@ -137,40 +145,10 @@
       "date": "2026-10-14",
       "end": "",
       "place": "札幌市北区北7条西4-4-1 第5道通ビル　2F",
-      "area": "札幌市内・近郊",
+      "area": "札幌市内・周辺",
       "genre": "飲食店",
       "text": "2026-10-14の開店情報。詳細は出典を確認してください。",
       "url": "https://sapporo-sokuho.com/archives/post-113509.html",
-      "source": "札幌速報",
-      "official": false,
-      "checked_at": "2026-10-11"
-    },
-    {
-      "id": 2934616422511,
-      "name": "ちょいおでん 札幌澄川店",
-      "type": "開店",
-      "date": "2026-10-09",
-      "end": "",
-      "place": "札幌市南区澄川4条2丁目2-3 第三真耕ビル1階",
-      "area": "札幌市内・近郊",
-      "genre": "飲食店",
-      "text": "2026-10-09の開店情報。詳細は出典を確認してください。",
-      "url": "https://sapporo-sokuho.com/archives/post-113454.html",
-      "source": "札幌速報",
-      "official": false,
-      "checked_at": "2026-10-11"
-    },
-    {
-      "id": 81063814072905,
-      "name": "ネイス体操教室イオン札幌麻生校",
-      "type": "開店",
-      "date": "2026-11-06",
-      "end": "",
-      "place": "札幌市北区北39条西4-1-5 イオン札幌麻生店",
-      "area": "札幌市内・近郊",
-      "genre": "飲食店",
-      "text": "2026-11-06の開店情報。詳細は出典を確認してください。",
-      "url": "https://sapporo-sokuho.com/archives/post-113239.html",
       "source": "札幌速報",
       "official": false,
       "checked_at": "2026-10-11"
@@ -191,46 +169,16 @@
       "checked_at": "2026-10-11"
     },
     {
-      "id": 28254997746911,
-      "name": "布袋点心舗 弁財天",
-      "type": "閉店",
-      "date": "2026-10-24",
-      "end": "",
-      "place": "札幌市中央区南3条西4丁目12-1 アルシュビル5階",
-      "area": "札幌中心部",
-      "genre": "飲食店",
-      "text": "2026-10-24の閉店情報。詳細は出典を確認してください。",
-      "url": "https://sapporo-sokuho.com/archives/post-112756.html",
-      "source": "札幌速報",
-      "official": false,
-      "checked_at": "2026-10-11"
-    },
-    {
       "id": 268763480941645,
       "name": "炭火やBB 南郷13丁目店",
       "type": "開店",
       "date": "2026-10-01",
       "end": "",
       "place": "札幌市白石区南郷通14丁目南2-2 ニュー南郷サンハイツ1F",
-      "area": "札幌市内・近郊",
+      "area": "札幌市内・周辺",
       "genre": "飲食店",
       "text": "2026-10-01の開店情報。詳細は出典を確認してください。",
       "url": "https://sapporo-sokuho.com/archives/post-112752.html",
-      "source": "札幌速報",
-      "official": false,
-      "checked_at": "2026-10-11"
-    },
-    {
-      "id": 232570864952746,
-      "name": "APT ROOM 札幌北24条店",
-      "type": "開店",
-      "date": "2026-10-10",
-      "end": "",
-      "place": "札幌市北区北23条西5丁目2-41 ほそかわビル4階",
-      "area": "札幌市内・近郊",
-      "genre": "飲食店",
-      "text": "2026-10-10の開店情報。詳細は出典を確認してください。",
-      "url": "https://sapporo-sokuho.com/archives/post-112432.html",
       "source": "札幌速報",
       "official": false,
       "checked_at": "2026-10-11"
