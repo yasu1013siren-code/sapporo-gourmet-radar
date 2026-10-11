@@ -26,10 +26,12 @@ jobs:
           python-version: '3.12'
       - run: pip install -r requirements.txt
       - name: Collect public information
+        if: github.event_name != 'push'
         id: collect
         continue-on-error: true
         run: python collector.py
       - name: Save collected data
+        if: github.event_name != 'push'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
@@ -44,8 +46,6 @@ jobs:
           cp public/* _site/
           touch _site/.nojekyll
       - uses: actions/configure-pages@v5
-        with:
-          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
