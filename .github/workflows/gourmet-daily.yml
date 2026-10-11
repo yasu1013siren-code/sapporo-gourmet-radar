@@ -44,6 +44,7 @@ jobs:
         run: |
           mkdir -p _site
           cp public/* _site/
+          cp unconfirmed.json collection-report.json _site/
           touch _site/.nojekyll
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
