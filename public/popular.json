@@ -28,7 +28,11 @@
       "social_url": "https://www.instagram.com/milkdodoreiku/",
       "keyword": "ミルクドドレイク 札幌",
       "signal_date": "2026-10-11",
-      "category": "スイーツ"
+      "category": "スイーツ",
+      "sns_views": 653000,
+      "metric_url": "https://hamoni.jp/area/hokkaido/sapporo/shops/donuts",
+      "metric_checked_at": "2026-10-11",
+      "metric_period": "集計期間・方法は未確認"
     },
     {
       "id": "melt",
@@ -41,7 +45,11 @@
       "url": "https://hamoni.jp/area/hokkaido/sapporo/shops/donuts",
       "keyword": "melt donut 札幌",
       "signal_date": "2026-10-11",
-      "category": "スイーツ"
+      "category": "スイーツ",
+      "sns_views": 316000,
+      "metric_url": "https://hamoni.jp/area/hokkaido/sapporo/shops/donuts",
+      "metric_checked_at": "2026-10-11",
+      "metric_period": "集計期間・方法は未確認"
     },
     {
       "id": "shiroi-koibito",
@@ -56,7 +64,11 @@
       "url": "https://hamoni.jp/area/hokkaido/sapporo/shops/cafe",
       "website_url": "",
       "keyword": "白い恋人パーク 札幌",
-      "signal_date": "2026-10-11"
+      "signal_date": "2026-10-11",
+      "sns_views": 2732000,
+      "metric_url": "https://hamoni.jp/area/hokkaido/sapporo/shops/cafe",
+      "metric_checked_at": "2026-10-11",
+      "metric_period": "集計期間・方法は未確認"
     },
     {
       "id": "lompolo",
@@ -71,7 +83,11 @@
       "url": "https://hamoni.jp/area/hokkaido/sapporo/shops/cafe",
       "website_url": "",
       "keyword": "カフェ・ロンポロ 札幌",
-      "signal_date": "2026-10-11"
+      "signal_date": "2026-10-11",
+      "sns_views": 2518000,
+      "metric_url": "https://hamoni.jp/area/hokkaido/sapporo/shops/cafe",
+      "metric_checked_at": "2026-10-11",
+      "metric_period": "集計期間・方法は未確認"
     },
     {
       "id": "harry",
@@ -86,7 +102,11 @@
       "url": "https://hamoni.jp/area/hokkaido/sapporo/shops/cafe",
       "website_url": "https://harry-sapporo.jp/",
       "keyword": "bakery harry 札幌",
-      "signal_date": "2026-10-11"
+      "signal_date": "2026-10-11",
+      "sns_views": 1209000,
+      "metric_url": "https://hamoni.jp/area/hokkaido/sapporo/shops/cafe",
+      "metric_checked_at": "2026-10-11",
+      "metric_period": "集計期間・方法は未確認"
     },
     {
       "id": "tamura",
@@ -101,7 +121,11 @@
       "url": "https://hamoni.jp/area/hokkaido/sapporo/shops/cafe",
       "website_url": "",
       "keyword": "タムラ倉庫 札幌",
-      "signal_date": "2026-10-11"
+      "signal_date": "2026-10-11",
+      "sns_views": 1280000,
+      "metric_url": "https://hamoni.jp/area/hokkaido/sapporo/shops/cafe",
+      "metric_checked_at": "2026-10-11",
+      "metric_period": "集計期間・方法は未確認"
     },
     {
       "id": "fika",
@@ -116,7 +140,11 @@
       "url": "https://hamoni.jp/area/hokkaido/sapporo/shops/cafe",
       "website_url": "",
       "keyword": "FIKA CAFÉ Lagom 札幌",
-      "signal_date": "2026-10-11"
+      "signal_date": "2026-10-11",
+      "sns_views": 289000,
+      "metric_url": "https://hamoni.jp/area/hokkaido/sapporo/shops/cafe",
+      "metric_checked_at": "2026-10-11",
+      "metric_period": "集計期間・方法は未確認"
     },
     {
       "id": "yakimochi",
@@ -131,7 +159,11 @@
       "url": "https://hamoni.jp/area/hokkaido/sapporo/shops/cafe",
       "website_url": "",
       "keyword": "やきもち庵 札幌",
-      "signal_date": "2026-10-11"
+      "signal_date": "2026-10-11",
+      "sns_views": 289000,
+      "metric_url": "https://hamoni.jp/area/hokkaido/sapporo/shops/cafe",
+      "metric_checked_at": "2026-10-11",
+      "metric_period": "集計期間・方法は未確認"
     },
     {
       "id": "purple",
@@ -146,7 +178,11 @@
       "url": "https://hamoni.jp/area/hokkaido/sapporo/shops/parfait",
       "website_url": "",
       "keyword": "薄野喫茶 パープルダリア 札幌",
-      "signal_date": "2026-10-11"
+      "signal_date": "2026-10-11",
+      "sns_views": 437000,
+      "metric_url": "https://hamoni.jp/area/hokkaido/sapporo/shops/parfait",
+      "metric_checked_at": "2026-10-11",
+      "metric_period": "集計期間・方法は未確認"
     },
     {
       "id": "keyaki",
@@ -161,7 +197,11 @@
       "url": "https://hamoni.jp/en/area/hokkaido/sapporo/shops/parfait",
       "website_url": "",
       "keyword": "けやき すすきの本店 札幌",
-      "signal_date": "2026-10-11"
+      "signal_date": "2026-10-11",
+      "sns_views": 730400,
+      "metric_url": "https://hamoni.jp/en/area/hokkaido/sapporo/shops/parfait",
+      "metric_checked_at": "2026-10-11",
+      "metric_period": "集計期間・方法は未確認"
     },
     {
       "id": "majisand",
@@ -176,7 +216,11 @@
       "url": "https://hamoni.jp/area/hokkaido/sapporo/shops/parfait",
       "website_url": "",
       "keyword": "マジサンド（MAJI SAND） 札幌",
-      "signal_date": "2026-10-11"
+      "signal_date": "2026-10-11",
+      "sns_views": 25000,
+      "metric_url": "https://hamoni.jp/area/hokkaido/sapporo/shops/parfait",
+      "metric_checked_at": "2026-10-11",
+      "metric_period": "集計期間・方法は未確認"
     },
     {
       "id": "mil",
@@ -191,7 +235,11 @@
       "url": "https://hamoni.jp/en/area/hokkaido/sapporo/shops/parfait",
       "website_url": "https://yoru-parfait-gaku.com/category/parfait/parfaiteria-mil/",
       "keyword": "夜パフェ専門店 Parfaiteria miL 札幌",
-      "signal_date": "2026-10-11"
+      "signal_date": "2026-10-11",
+      "sns_views": 13400,
+      "metric_url": "https://hamoni.jp/en/area/hokkaido/sapporo/shops/parfait",
+      "metric_checked_at": "2026-10-11",
+      "metric_period": "集計期間・方法は未確認"
     },
     {
       "id": "mint",
@@ -206,7 +254,11 @@
       "url": "https://hamoni.jp/en/area/hokkaido/sapporo/shops/parfait",
       "website_url": "",
       "keyword": "ネオ喫茶薄荷－ミント－ 札幌",
-      "signal_date": "2026-10-11"
+      "signal_date": "2026-10-11",
+      "sns_views": 5600,
+      "metric_url": "https://hamoni.jp/en/area/hokkaido/sapporo/shops/parfait",
+      "metric_checked_at": "2026-10-11",
+      "metric_period": "集計期間・方法は未確認"
     },
     {
       "id": "colombo",
@@ -221,7 +273,11 @@
       "url": "https://hamoni.jp/area/hokkaido/sapporo/kita/shops/curry",
       "website_url": "https://www.colombo1973.com/",
       "keyword": "カリーハウス コロンボ 札幌",
-      "signal_date": "2026-10-11"
+      "signal_date": "2026-10-11",
+      "sns_views": 419000,
+      "metric_url": "https://hamoni.jp/area/hokkaido/sapporo/kita/shops/curry",
+      "metric_checked_at": "2026-10-11",
+      "metric_period": "集計期間・方法は未確認"
     },
     {
       "id": "hirihiri",
@@ -236,7 +292,11 @@
       "url": "https://hamoni.jp/area/hokkaido/sapporo/shops/curry",
       "website_url": "https://hirihiri.jp/shop/",
       "keyword": "スープカリー ヒリヒリ2号 札幌",
-      "signal_date": "2026-10-11"
+      "signal_date": "2026-10-11",
+      "sns_views": 119000,
+      "metric_url": "https://hamoni.jp/area/hokkaido/sapporo/shops/curry",
+      "metric_checked_at": "2026-10-11",
+      "metric_period": "集計期間・方法は未確認"
     },
     {
       "id": "karabato",
@@ -251,7 +311,11 @@
       "url": "https://hamoni.jp/area/hokkaido/sapporo/shops/curry",
       "website_url": "",
       "keyword": "カラバトカリー 札幌",
-      "signal_date": "2026-10-11"
+      "signal_date": "2026-10-11",
+      "sns_views": 296000,
+      "metric_url": "https://hamoni.jp/area/hokkaido/sapporo/shops/curry",
+      "metric_checked_at": "2026-10-11",
+      "metric_period": "集計期間・方法は未確認"
     },
     {
       "id": "cocco",
@@ -266,7 +330,11 @@
       "url": "https://hamoni.jp/area/hokkaido/sapporo/shops/cake",
       "website_url": "https://nagamitsufarm.com/cocco/",
       "keyword": "コッコテラス 札幌",
-      "signal_date": "2026-10-11"
+      "signal_date": "2026-10-11",
+      "sns_views": 645000,
+      "metric_url": "https://hamoni.jp/area/hokkaido/sapporo/shops/cake",
+      "metric_checked_at": "2026-10-11",
+      "metric_period": "集計期間・方法は未確認"
     },
     {
       "id": "benbeya",
@@ -281,7 +349,11 @@
       "url": "https://hamoni.jp/area/hokkaido/sapporo/teine/shops/cake",
       "website_url": "",
       "keyword": "洋菓子工房べんべや 本店 札幌",
-      "signal_date": "2026-10-11"
+      "signal_date": "2026-10-11",
+      "sns_views": 456000,
+      "metric_url": "https://hamoni.jp/area/hokkaido/sapporo/teine/hoshimi/shops",
+      "metric_checked_at": "2026-10-11",
+      "metric_period": "集計期間・方法は未確認"
     },
     {
       "id": "kuma",
@@ -296,7 +368,11 @@
       "url": "https://hamoni.jp/area/hokkaido/sapporo/nishi/shops/cake",
       "website_url": "",
       "keyword": "くまのしっぽ 札幌",
-      "signal_date": "2026-10-11"
+      "signal_date": "2026-10-11",
+      "sns_views": 336000,
+      "metric_url": "https://hamoni.jp/area/hokkaido/sapporo/nishi/shops/cake",
+      "metric_checked_at": "2026-10-11",
+      "metric_period": "集計期間・方法は未確認"
     }
   ]
 }
