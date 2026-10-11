@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 
 ROOT=Path(__file__).resolve().parent
 PUBLIC=ROOT/'public'
+CONTACT=runpy.run_path(str(ROOT/'contact_parser.py'))
 EVENTS=runpy.run_path(str(ROOT/'official_events.py'))
 JST=timezone(timedelta(hours=9))
 FOOD=re.compile(r'飲食|レストラン|カフェ|喫茶|居酒屋|ラーメン|焼肉|焼き肉|寿司|鮨|パン|ベーカリー|スイーツ|菓子|点心|餃子|パフェ|ソフトクリーム|アイス|ヨーグルト|焼き鳥|やきとり|海鮮|そば|蕎麦|うどん|中華|イタリアン|ビストロ|バル|ケーキ|ドーナツ|ピザ|パスタ|食フェス|きのこ|牡蠣|コーヒー|珈琲|バー|食堂|グルメ|フード|物産展|焼き芋|ビール|ワイン|日本酒|カレー|おでん|団子')
@@ -140,6 +141,8 @@ def parse_page(soup,u,source,t):
    dates=[str(event.get('startDate',''))[:10],str(event.get('endDate',event.get('startDate','')))[:10]]
  if not name or not place or not dates:return None,candidate
  r={'id':int(hashlib.sha256((norm(name)+norm(place)+kind).encode()).hexdigest()[:12],16),'name':name,'type':kind,'date':dates[0],'end':dates[-1] if kind=='イベント' else '', 'place':place,'area':area(place),'genre':'グルメイベント' if kind=='イベント' else '飲食店','text':f'{dates[0]}の{kind}情報。詳細は出典を確認してください。','url':u,'source':source,'official':False,'checked_at':t.isoformat()}
+ contacts=CONTACT['extract'](main,u)
+ if contacts:r['contacts']={**contacts,'checked_at':t.isoformat()}
  if not eligible(r,t):return None,{**candidate,'reason':'掲載期間外・閉店済み'}
  return r,None
 def area(place):
@@ -207,6 +210,11 @@ def run():
    if r:
     records={key(v):v for v in deduplicate(list(records.values())+[r])};checked+=1
    if c:pending.append(c)
+ contacts_path=ROOT/'reviewed_contacts.json'
+ if contacts_path.exists():
+  verified=json.loads(contacts_path.read_text(encoding='utf8'))
+  for r in records.values():
+   if str(r['id']) in verified:r['contacts']=verified[str(r['id'])]
  successes=sum(x['ok'] for x in report['sources'])
  report.update({'successful_sources':successes,'accepted_details':checked,'pending':len(pending)})
  atomic(ROOT/'collection-report.json',report);atomic(ROOT/'unconfirmed.json',{'checked_at':stamp,'items':pending})
