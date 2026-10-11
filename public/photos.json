@@ -7,7 +7,9 @@
       "alt": "ちょいおでん札幌澄川店の公式ページに掲載された店舗外観",
       "source": "ちょいおでん公式",
       "official": true,
-      "match_url": "https://sapporo-sokuho.com/archives/post-113454.html"
+      "match_url": "https://sapporo-sokuho.com/archives/post-113454.html",
+      "local_image": "assets/photos/d666399f73193088ce98.webp",
+      "cached_at": "2026-10-11T20:02:55.642447+09:00"
     },
     {
       "url": "https://sapporo-sokuho.com/archives/post-113509.html",
@@ -15,7 +17,9 @@
       "name": "北海道海鮮 個室居酒屋 うおっと 魚人 札幌駅北口店",
       "alt": "うおっとの甘エビ。開店紹介記事掲載写真",
       "source": "札幌速報",
-      "official": false
+      "official": false,
+      "local_image": "assets/photos/2f7766f6e70df3b55db3.webp",
+      "cached_at": "2026-10-11T20:02:56.093856+09:00"
     },
     {
       "url": "https://sapporo-sokuho.com/archives/post-113165.html",
@@ -23,7 +27,9 @@
       "name": "焼き鳥食べ飲み放題 おすすめ屋",
       "alt": "おすすめ屋の焼き鳥。開店紹介記事掲載写真",
       "source": "札幌速報",
-      "official": false
+      "official": false,
+      "local_image": "assets/photos/73a3725556986ea590f0.webp",
+      "cached_at": "2026-10-11T20:02:56.095516+09:00"
     },
     {
       "name": "SPROUT 札幌店",
@@ -31,7 +37,9 @@
       "image": "https://sprout-project.com/sprout_detail/wp-content/uploads/2026/09/CA8C373D-4B52-4DB1-930B-BE778F32050F-13080-00001B09F2C15F19.jpg",
       "alt": "SPROUT札幌店の公式開店案内に掲載されたコーヒーカウンター",
       "source": "SPROUT公式",
-      "official": true
+      "official": true,
+      "local_image": "assets/photos/c79f72f0b3efc7e3a6cb.webp",
+      "cached_at": "2026-10-11T20:02:56.048424+09:00"
     },
     {
       "name": "Yagien softcream & coffee",
@@ -39,7 +47,9 @@
       "image": "https://ldh-liveschedule.s3.ap-northeast-1.amazonaws.com/sys/wp-content/uploads/2026/09/18110011/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88-2026-09-18-105209.png",
       "alt": "Yagienの公式開店案内に掲載されたソフトクリーム",
       "source": "LDH公式",
-      "official": true
+      "official": true,
+      "local_image": "assets/photos/74778591d9c5b557a78b.webp",
+      "cached_at": "2026-10-11T20:02:56.619868+09:00"
     },
     {
       "name": "七輪焼肉 安安 札幌篠路店",
@@ -48,7 +58,9 @@
       "image": "https://sapporokitaku.goguynet.jp/wp-content/uploads/sites/193/2026/08/anan-shinoro-3.jpg",
       "alt": "安安札幌篠路店の外観。号外NETの開店紹介記事掲載写真",
       "source": "号外NET札幌市北区",
-      "official": false
+      "official": false,
+      "local_image": "assets/photos/1ca1fa3b095b212c5cd7.webp",
+      "cached_at": "2026-10-11T20:02:57.631669+09:00"
     },
     {
       "name": "街角のレモンベーカリー琴似店",
@@ -56,8 +68,32 @@
       "image": "https://sapporo-sokuho.com/wp-content/uploads/1000013562.jpg",
       "alt": "街角のレモンベーカリー琴似店の開店紹介記事に掲載されたパン",
       "source": "札幌速報",
-      "official": false
+      "official": false,
+      "local_image": "assets/photos/06fa89042619fbcf1014.webp",
+      "cached_at": "2026-10-11T20:02:57.468724+09:00"
     }
   ],
-  "last_run": null
+  "last_run": "2026-10-11T20:02:49.544607+09:00",
+  "report": {
+    "attempted_at": "2026-10-11T20:02:49.544607+09:00",
+    "added": [],
+    "failures": [],
+    "skipped": [
+      "炭火やBB 南郷13丁目店",
+      "ノースコンチネント 赤レンガ店",
+      "Baristart Coffee Under Construction",
+      "すすきの横丁居酒屋",
+      "鉄板ハンバーグよしだや札幌",
+      "蕎麦前 酒BAR 福ちゃん家",
+      "北海道焼肉 百折歩撓 羊と牛とジビエと海鮮",
+      "海鮮酒場 海の灯",
+      "オリーブの丘 札幌西町店",
+      "Hachinohe Lover",
+      "5.hundred",
+      "中華料理 永伸",
+      "個室居酒屋弐合",
+      "原始焼き酒場ルンゴカーニバル 極",
+      "喫茶プリモナ"
+    ]
+  }
 }
