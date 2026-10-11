@@ -10,6 +10,7 @@ ROOT=Path(__file__).resolve().parent
 PUBLIC=ROOT/'public'
 JST=timezone(timedelta(hours=9))
 FOOD=re.compile(r'飲食|レストラン|カフェ|喫茶|居酒屋|ラーメン|焼肉|焼き肉|寿司|鮨|パン|ベーカリー|スイーツ|菓子|コーヒー|珈琲|バー|食堂|グルメ|フード|物産展|焼き芋|ビール|ワイン|日本酒|カレー|おでん|団子')
+NONFOOD=re.compile(r'パーソナルジム|フィットネス|体操教室|スポーツジム|美容クリニック|美容医療|アパレル|整体|(?:APT\s*ROOM)',re.I)
 GEO=re.compile(r'札幌|小樽|石狩|江別|北広島|千歳|恵庭|苫小牧')
 SOURCE_LIST=[
  ('札幌リスト','https://sapporo-list.info/open/'),
@@ -25,7 +26,24 @@ SOURCE_LIST=[
 def norm(s): return re.sub(r'\s+','',unicodedata.normalize('NFKC',s or '')).lower()
 def canonical(u):
  p=urlsplit(u);return urlunsplit((p.scheme,p.netloc,p.path.rstrip('/') or '/',p.query,''))
-def key(r):return '|'.join(map(norm,[r['name'],r['place'],r['type'],r['date']]))
+def key(r):return '|'.join(map(norm,[r['name'],r['type'],r['date']]))
+def deduplicate(items):
+ records={}
+ for r in items:
+  if NONFOOD.search(r.get('name','')):continue
+  k=key(r)
+  if k in records:
+   old=records[k]
+   # Keep original id and editorial description so saved notes remain attached.
+   detailed=bool(re.search(r'/post-\d+|/open-close/[^/]+',r.get('url','')))
+   merged={**old,**r} if detailed else {**r,**old}
+   merged['id']=old['id']
+   merged['text']=old.get('text',r.get('text',''))
+   merged['genre']=old.get('genre',r.get('genre','飲食店'))
+   merged['aliases']=list(dict.fromkeys(old.get('aliases',[])+r.get('aliases',[])+[r['id']]))
+   records[k]=merged
+  else:records[k]=dict(r)
+ return list(records.values())
 def shift(t,n):
  m=t.month-1+n;y=t.year+m//12;m=m%12+1
  return date(y,m,min(t.day,calendar.monthrange(y,m)[1]))
@@ -53,7 +71,10 @@ def parse_page(soup,u,source,t):
  title=heading.get_text(' ',strip=True) if heading else ''
  text=main.get_text(' ',strip=True)
  candidate={'name':title[:140],'url':u,'source':source,'first_seen':t.isoformat(),'reason':'店名・所在地・実施日を確定できない'}
- if not FOOD.search(title+' '+text[:2000]) or not GEO.search(title+' '+text[:4000]):return None,candidate
+ if NONFOOD.search(title):return None,{**candidate,'reason':'グルメ対象外'}
+ # Category evidence must come from the headline, never related articles or sidebars.
+ if not FOOD.search(title):return None,{**candidate,'reason':'見出しに飲食・グルメの根拠がないため要確認'}
+ if not GEO.search(title+' '+text[:4000]):return None,candidate
  kind='リニューアル' if re.search('リニューアル',title) else '閉店' if '閉店' in title else '開店' if re.search('オープン|開店',title) else 'イベント'
  # Publication timestamps are deliberately ignored. Dates must sit next to execution labels.
  execution=[]
@@ -96,7 +117,7 @@ def parse_page(soup,u,source,t):
  return r,None
 def area(place):
  if '中央区' in place or re.search('大通|すすきの|中島公園|北3条広場',place):return '札幌中心部'
- if '札幌' in place:return '札幌市内・近郊'
+ if '札幌' in place:return '札幌市内・周辺'
  if re.search('小樽|石狩',place):return '小樽・石狩'
  if re.search('江別|北広島',place):return '江別・北広島'
  return '千歳・恵庭・苫小牧'
@@ -105,7 +126,7 @@ def atomic(p,obj):
  tmp.write_text(json.dumps(obj,ensure_ascii=False,indent=2),encoding='utf8');tmp.replace(p)
 def run():
  t=datetime.now(JST).date();stamp=datetime.now(JST).isoformat()
- old=json.loads((PUBLIC/'news.json').read_text(encoding='utf8')); records={key(r):r for r in old['items']}
+ old=json.loads((PUBLIC/'news.json').read_text(encoding='utf8')); records={key(r):r for r in deduplicate(old['items'])}
  report={'attempted_at':stamp,'sources':[]};links={};pending=[]
  # Keep a saved URL for direct re-check, alongside newly discovered detail links.
  for r in records.values():links[canonical(r['url'])]=r['source']
@@ -128,7 +149,8 @@ def run():
  checked=0
  with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
   for r,c in pool.map(detail,list(links.items())[:150]):
-   if r:records[key(r)]={**records.get(key(r),{}),**r};checked+=1
+   if r:
+    records={key(v):v for v in deduplicate(list(records.values())+[r])};checked+=1
    if c:pending.append(c)
  successes=sum(x['ok'] for x in report['sources'])
  report.update({'successful_sources':successes,'accepted_details':checked,'pending':len(pending)})
