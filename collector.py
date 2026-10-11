@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 ROOT=Path(__file__).resolve().parent
 PUBLIC=ROOT/'public'
 JST=timezone(timedelta(hours=9))
-FOOD=re.compile(r'飲食|レストラン|カフェ|喫茶|居酒屋|ラーメン|焼肉|焼き肉|寿司|鮨|パン|ベーカリー|スイーツ|菓子|コーヒー|珈琲|バー|食堂|グルメ|フード|物産展|焼き芋|ビール|ワイン|日本酒|カレー|おでん|団子')
+FOOD=re.compile(r'飲食|レストラン|カフェ|喫茶|居酒屋|ラーメン|焼肉|焼き肉|寿司|鮨|パン|ベーカリー|スイーツ|菓子|点心|餃子|パフェ|ソフトクリーム|アイス|ヨーグルト|焼き鳥|やきとり|海鮮|そば|蕎麦|うどん|中華|イタリアン|ビストロ|バル|ケーキ|ドーナツ|ピザ|パスタ|食フェス|きのこ|牡蠣|コーヒー|珈琲|バー|食堂|グルメ|フード|物産展|焼き芋|ビール|ワイン|日本酒|カレー|おでん|団子')
 NONFOOD=re.compile(r'パーソナルジム|フィットネス|体操教室|スポーツジム|美容クリニック|美容医療|アパレル|整体|(?:APT\s*ROOM)',re.I)
 GEO=re.compile(r'札幌|小樽|石狩|江別|北広島|千歳|恵庭|苫小牧')
 SOURCE_LIST=[
@@ -65,30 +65,40 @@ def date_value(s):
  try:return date(*map(int,m.groups())).isoformat()
  except ValueError:return ''
 def parse_page(soup,u,source,t):
+ heading=soup.select_one('h1') or soup.select_one('title')
+ title=heading.get_text(' ',strip=True) if heading else ''
  main=soup.select_one('article') or soup.select_one('main') or soup
  for n in main.select('nav,footer,header,aside,script:not([type="application/ld+json"]),style'):n.decompose()
- heading=main.select_one('h1') or soup.select_one('title')
- title=heading.get_text(' ',strip=True) if heading else ''
  text=main.get_text(' ',strip=True)
  candidate={'name':title[:140],'url':u,'source':source,'first_seen':t.isoformat(),'reason':'店名・所在地・実施日を確定できない'}
  if NONFOOD.search(title):return None,{**candidate,'reason':'グルメ対象外'}
  # Category evidence must come from the headline, never related articles or sidebars.
  if not FOOD.search(title):return None,{**candidate,'reason':'見出しに飲食・グルメの根拠がないため要確認'}
  if not GEO.search(title+' '+text[:4000]):return None,candidate
- kind='リニューアル' if re.search('リニューアル',title) else '閉店' if '閉店' in title else '開店' if re.search('オープン|開店',title) else 'イベント'
+ kind='リニューアル' if re.search('リニューアル',title) else '閉店' if '閉店' in title else '開店' if re.search('オープン|OPEN|開店',title,re.I) else 'イベント'
  # Publication timestamps are deliberately ignored. Dates must sit next to execution labels.
- execution=[]
- for line in re.split(r'[。\n]',text):
-  if re.search(r'開催日|開催期間|会期|オープン日|開店日|閉店日|リニューアルオープン|20\d{2}年.{0,35}(?:オープン|開店|閉店)',line):
-   execution.extend(re.findall(r'20\d{2}\s*[年/.-]\s*\d{1,2}\s*[月/.-]\s*\d{1,2}(?:日)?',line[:400]))
- dates=list(dict.fromkeys(filter(None,map(date_value,execution))))
- place=''
+ fields={}
  for tr in main.select('tr'):
   cells=tr.select('th,td')
-  if len(cells)>1 and re.search('住所|所在地|会場|開催場所',cells[0].get_text()):place=cells[1].get_text(' ',strip=True);break
+  if len(cells)>1:fields[cells[0].get_text(' ',strip=True)]=cells[1].get_text(' ',strip=True)
+ for dt in main.select('dt'):
+  dd=dt.find_next_sibling('dd')
+  if dd:fields[dt.get_text(' ',strip=True)]=dd.get_text(' ',strip=True)
+ execution=[]
+ # Headline and labelled shop fields take priority over article prose.
+ if re.search('開催|会期|オープン|OPEN|開店|閉店|リニューアル',title,re.I):execution.append(title)
+ execution.extend(v for k,v in fields.items() if re.search('開催日|開催期間|会期|開店日|閉店日|オープン日',k))
+ if not any(date_value(v) for v in execution):
+  for p in main.select('p'):
+   line=p.get_text(' ',strip=True)
+   if re.search('開催日|開催期間|会期|オープン日|開店日|閉店日|20\\d{2}年.{0,35}(?:オープン|OPEN|開店|閉店)',line,re.I):
+    execution.append(line[:400])
+ dates=list(dict.fromkeys(filter(None,[date_value(x) for line in execution for x in re.findall(r'20\\d{2}\\s*[年/.-]\\s*\\d{1,2}\\s*[月/.-]\\s*\\d{1,2}(?:日)?',line)])))
+ place=next((v for k,v in fields.items() if re.search('住所|所在地|会場|開催場所',k)),'')
  if not place:
-  m=re.search(r'(?:住所|所在地|会場|開催場所)\s*[:：]?\s*((?:北海道)?(?:札幌|小樽|石狩|江別|北広島|千歳|恵庭|苫小牧)[^。]{2,100})',text)
+  m=re.search(r'(?:住所|所在地|会場|開催場所)\\s*[:：]?\\s*(?:〒?[\\d－-]+\\s*)?((?:北海道)?(?:札幌|小樽|石狩|江別|北広島|千歳|恵庭|苫小牧)[^。]{2,100})',text)
   if m:place=m.group(1)
+ if place and not GEO.search(place):return None,{**candidate,'reason':'所在地が対象地域外'}
  name=''
  m=re.search(r'[『「]([^』」]{2,70})[』」]',title)
  if m:name=m.group(1)
@@ -139,8 +149,10 @@ def run():
     label=a.get_text(' ',strip=True);href=urljoin(url,a['href'])
     if not re.search('オープン|開店|閉店|リニューアル|グルメ|フード|食|物産|スイーツ|フェス|マルシェ',label):continue
     if urlsplit(href).netloc!=urlsplit(url).netloc:continue
-    links.setdefault(canonical(href),source);found+=1
-    if found>=16:break
+    if canonical(href) in links:continue
+    # List and category navigation must not consume the detail-article budget.
+    if re.search(r'/(?:category|page|tag)/|/(?:january|february|march|april|may|june|july|august|september|october|november|december)-open/?
+    if found>=50:break
   except Exception as e:report['sources'].append({'source':source,'ok':False,'error':type(e).__name__})
  def detail(pair):
   u,source=pair
@@ -148,7 +160,30 @@ def run():
   except Exception as e:return None,{'url':u,'source':source,'reason':type(e).__name__}
  checked=0
  with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
-  for r,c in pool.map(detail,list(links.items())[:150]):
+  for r,c in pool.map(detail,list(links.items())[:300]):
+   if r:
+    records={key(v):v for v in deduplicate(list(records.values())+[r])};checked+=1
+   if c:pending.append(c)
+ successes=sum(x['ok'] for x in report['sources'])
+ report.update({'successful_sources':successes,'accepted_details':checked,'pending':len(pending)})
+ atomic(ROOT/'collection-report.json',report);atomic(ROOT/'unconfirmed.json',{'checked_at':stamp,'items':pending})
+ if not successes:raise RuntimeError('全情報源の取得失敗。既存公開データは保持します。')
+ # Partial failures remain visible; last_success means a collection run, not every item re-verified.
+ output={**old,'last_run':stamp,'status':'partial' if successes<len(SOURCE_LIST) else 'success','source_success_count':successes,'source_total':len(SOURCE_LIST),'items':list(records.values())}
+ atomic(PUBLIC/'news.json',output)
+ print(json.dumps(report,ensure_ascii=False))
+if __name__=='__main__':run()
+,href):continue
+    links.setdefault(canonical(href),source);found+=1
+    if found>=50:break
+  except Exception as e:report['sources'].append({'source':source,'ok':False,'error':type(e).__name__})
+ def detail(pair):
+  u,source=pair
+  try:return parse_page(get(u),u,source,t)
+  except Exception as e:return None,{'url':u,'source':source,'reason':type(e).__name__}
+ checked=0
+ with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
+  for r,c in pool.map(detail,list(links.items())[:300]):
    if r:
     records={key(v):v for v in deduplicate(list(records.values())+[r])};checked+=1
    if c:pending.append(c)
