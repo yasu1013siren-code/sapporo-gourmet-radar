@@ -1,1 +1,49 @@
-{"status":"not_run"}
+{
+  "attempted_at": "2026-10-11T12:47:08.002484+09:00",
+  "sources": [
+    {
+      "source": "札幌リスト",
+      "ok": true
+    },
+    {
+      "source": "札幌速報",
+      "ok": true
+    },
+    {
+      "source": "リビング札幌",
+      "ok": false,
+      "error": "SSLError"
+    },
+    {
+      "source": "札幌ショップス",
+      "ok": true
+    },
+    {
+      "source": "北3条広場",
+      "ok": true
+    },
+    {
+      "source": "チ・カ・ホ",
+      "ok": true
+    },
+    {
+      "source": "札幌三越",
+      "ok": true
+    },
+    {
+      "source": "丸井今井",
+      "ok": true
+    },
+    {
+      "source": "サッポロファクトリー",
+      "ok": true
+    },
+    {
+      "source": "焼き芋テラス",
+      "ok": true
+    }
+  ],
+  "successful_sources": 9,
+  "accepted_details": 7,
+  "pending": 56
+}

@@ -1,1 +1,371 @@
-{"items":[]}
+{
+  "checked_at": "2026-10-11T12:47:08.002484+09:00",
+  "items": [
+    {
+      "url": "https://sapporo-list.info/open/october-open",
+      "source": "札幌リスト",
+      "reason": "ReadTimeout"
+    },
+    {
+      "url": "https://mrs.living.jp/sapporo/newopen",
+      "source": "リビング札幌Web",
+      "reason": "SSLError"
+    },
+    {
+      "name": "開店・閉店 – category –",
+      "url": "https://sapporo-sokuho.com/archives/category/開店・閉店",
+      "source": "札幌速報",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "閉店情報 – category –",
+      "url": "https://sapporo-sokuho.com/archives/category/開店・閉店/閉店情報",
+      "source": "札幌速報",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "しりうちつながる食のフェスタin札幌 | 札幌市北3条広場オフィシャルサイト -SAPPORO KITA3-JO PLAZA-",
+      "url": "https://www.kita3jo-plaza.jp/event/detail.asp?id=11890",
+      "source": "北3条広場公式",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "さっぽろ焼き芋テラス | さっぽろの秋を楽しむ新しいイベント",
+      "url": "https://sapporo-yakiimoterrace.com/",
+      "source": "焼き芋テラス",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "札幌にオープンするお店の開店情報まとめ | 札幌リスト",
+      "url": "https://sapporo-list.info/open",
+      "source": "札幌リスト",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "url": "https://sapporo-list.info/january-open",
+      "source": "札幌リスト",
+      "reason": "ReadTimeout"
+    },
+    {
+      "url": "https://sapporo-list.info/february-open",
+      "source": "札幌リスト",
+      "reason": "ReadTimeout"
+    },
+    {
+      "url": "https://sapporo-list.info/march-open",
+      "source": "札幌リスト",
+      "reason": "ReadTimeout"
+    },
+    {
+      "url": "https://sapporo-list.info/april-open",
+      "source": "札幌リスト",
+      "reason": "ReadTimeout"
+    },
+    {
+      "url": "https://sapporo-list.info/may-open",
+      "source": "札幌リスト",
+      "reason": "ReadTimeout"
+    },
+    {
+      "url": "https://sapporo-list.info/june-open",
+      "source": "札幌リスト",
+      "reason": "ReadTimeout"
+    },
+    {
+      "url": "https://sapporo-list.info/july-open",
+      "source": "札幌リスト",
+      "reason": "ReadTimeout"
+    },
+    {
+      "url": "https://sapporo-list.info/august-open",
+      "source": "札幌リスト",
+      "reason": "ReadTimeout"
+    },
+    {
+      "url": "https://sapporo-list.info/september-open",
+      "source": "札幌リスト",
+      "reason": "ReadTimeout"
+    },
+    {
+      "url": "https://sapporo-list.info/october-open",
+      "source": "札幌リスト",
+      "reason": "ReadTimeout"
+    },
+    {
+      "url": "https://sapporo-list.info/november-open",
+      "source": "札幌リスト",
+      "reason": "ReadTimeout"
+    },
+    {
+      "name": "【札幌】2026年12月にオープンするお店 | 札幌リスト",
+      "url": "https://sapporo-list.info/december-open",
+      "source": "札幌リスト",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "閉店情報 – category –",
+      "url": "https://sapporo-sokuho.com/archives/category/%e9%96%8b%e5%ba%97%e3%83%bb%e9%96%89%e5%ba%97/%e9%96%89%e5%ba%97%e6%83%85%e5%a0%b1",
+      "source": "札幌速報",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "リニューアル情報 – category –",
+      "url": "https://sapporo-sokuho.com/archives/category/%e9%96%8b%e5%ba%97%e3%83%bb%e9%96%89%e5%ba%97/%e3%83%aa%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%a2%e3%83%ab%e6%83%85%e5%a0%b1",
+      "source": "札幌速報",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "韓国の美容医療トレンドを取り入れたクリニック『ライブリークリニック 札幌院』が12月1日オープン！",
+      "url": "https://sapporo-sokuho.com/archives/post-113426.html",
+      "source": "札幌速報",
+      "first_seen": "2026-10-11",
+      "reason": "掲載期間外・閉店済み"
+    },
+    {
+      "name": "りんご飴専門店「林檎堂」、『札幌北24条店』が10月12日、『イオン札幌元町店』が10月18日をもって閉店",
+      "url": "https://sapporo-sokuho.com/archives/post-113139.html",
+      "source": "札幌速報",
+      "first_seen": "2026-10-11",
+      "reason": "掲載期間外・閉店済み"
+    },
+    {
+      "name": "一度復活した『六花亭 北大エルム店』が11月15日をもって閉店",
+      "url": "https://sapporo-sokuho.com/archives/post-112867.html",
+      "source": "札幌速報",
+      "first_seen": "2026-10-11",
+      "reason": "掲載期間外・閉店済み"
+    },
+    {
+      "name": "札幌PARCOに北海道初上陸の韓国発アパレルブランド​「Matin Kim」が10月23日(金) オープン！​",
+      "url": "https://sapporo-sokuho.com/archives/post-112801.html",
+      "source": "札幌速報",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "北海道きのこ生産・消費振興会主催「第13回北海道きのこフェスティバル」が10月14日開催！",
+      "url": "https://sapporo-sokuho.com/archives/post-113524.html",
+      "source": "札幌速報",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "近日中の開店・閉店情報",
+      "url": "https://sapporo-sokuho.com/archives/post-3016.html",
+      "source": "札幌速報",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "札幌エリアの開店・閉店情報┃札幌ショップス",
+      "url": "https://www.shopship.jp/sapporo/open-close",
+      "source": "札幌ショップス",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "開店・閉店情報┃ショップス",
+      "url": "https://www.shopship.jp/open-close",
+      "source": "札幌ショップス",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "新オープン店舗一覧（2026年10月）┃ショップス",
+      "url": "https://www.shopship.jp/open-shop-list",
+      "source": "札幌ショップス",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【開店】札幌駅に居酒屋『全席個室 蒸しと酒 みちる 札幌駅前店』が2026年10月27日(火)よりOPEN!!",
+      "url": "https://www.shopship.jp/sapporo/open-close/michiru-dkdining-sapporo",
+      "source": "札幌ショップス",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【開店】札幌市中央区すすきのに『すすきの横丁居酒屋』が2026年10月01日(木)よりOPEN!!",
+      "url": "https://www.shopship.jp/susukino/open-close/susukino-yokocho-izakaya",
+      "source": "札幌ショップス",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【開店】札幌市西区琴似に居酒屋『Hachinohe Lover』が2026年10月01日(木)よりOPEN!!",
+      "url": "https://www.shopship.jp/sapporo/open-close/hachinohelover",
+      "source": "札幌ショップス",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【開店】札幌市中央区 すすきのにバー『5.hundred』が2026年09月25日(金)よりOPEN!!",
+      "url": "https://www.shopship.jp/susukino/open-close/5-hundred_sapporo",
+      "source": "札幌ショップス",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【開店】札幌市西区にレストラン『オリーブの丘 札幌西町店』が2026年10月08日(木)よりOPEN!!",
+      "url": "https://www.shopship.jp/sapporo/open-close/olivenooka_sapporo-nishimachi",
+      "source": "札幌ショップス",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【開店】札幌市北区 新琴似にレストラン『オリーブの丘 札幌新琴似店』が2026年10月22日(木)よりOPEN!!",
+      "url": "https://www.shopship.jp/sapporo/open-close/olivenooka_sinkotoni",
+      "source": "札幌ショップス",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【開店】札幌市中央区 狸小路にカフェ『Baristart Coffee Under Construction』が2026年10月01日(木)よりOPEN!!",
+      "url": "https://www.shopship.jp/sapporo/open-close/baristartcoffee",
+      "source": "札幌ショップス",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【開店】札幌市北区 北12条駅近くにカフェ『SPROUT 札幌店』が2026年09月20日(日)よりOPEN!!",
+      "url": "https://www.shopship.jp/sapporo/open-close/sprout_coffeeroastery_sapporo",
+      "source": "札幌ショップス",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【開店】札幌市中央区 すすきのに中華料理店『中華料理 永伸』が2026年09月14日(月)よりOPEN!!",
+      "url": "https://www.shopship.jp/susukino/open-close/eishin1830",
+      "source": "札幌ショップス",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【開店】札幌市中央区 円山にカフェ『PIA Gótico cafe 円山本店』が2026年09月07日(月)よりOPEN!!",
+      "url": "https://www.shopship.jp/sapporo/open-close/pia_gotico_hokkaido",
+      "source": "札幌ショップス",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【開店】札幌市中央区 すすきのに『BAR HUG』が2026年09月06日(日)よりOPEN!!",
+      "url": "https://www.shopship.jp/susukino/open-close/bar_hug69",
+      "source": "札幌ショップス",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【移転】札幌市中央区 すすきのにバー『BAR anyone』が2026年09月01日(火)よりOPEN!!",
+      "url": "https://www.shopship.jp/susukino/open-close/anyone2026-0901",
+      "source": "札幌ショップス",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【開店】すすきのにヨーグルトアイス専門店『YOGURT WORLD COCONO SUSUKINO店』が2026年10月21日(水)よりOPEN!!",
+      "url": "https://www.shopship.jp/susukino/open-close/yogurtworld_coconosusukino",
+      "source": "札幌ショップス",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【開店】札幌市清田区にカフェ『Yagien softcream & coffee』が2026年09月20日(日)よりOPEN!!",
+      "url": "https://www.shopship.jp/kiyota/open-close/yagien-softcream-coffee",
+      "source": "札幌ショップス",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "イベント一覧 | 札幌市北3条広場オフィシャルサイト -SAPPORO KITA3-JO PLAZA-",
+      "url": "https://www.kita3jo-plaza.jp/event",
+      "source": "北3条広場",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "イベント一覧 | チ・カ・ホ [札幌駅前通地下広場]",
+      "url": "https://www.sapporo-chikamichi.jp/event",
+      "source": "チ・カ・ホ",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "雑貨マルシェ | イベント一覧 | チ・カ・ホ [札幌駅前通地下広場]",
+      "url": "https://www.sapporo-chikamichi.jp/event/detail.asp?id=11887",
+      "source": "チ・カ・ホ",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "今が旬！奈良の柿フェス | イベント一覧 | チ・カ・ホ [札幌駅前通地下広場]",
+      "url": "https://www.sapporo-chikamichi.jp/event/detail.asp?id=11106",
+      "source": "チ・カ・ホ",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "里親フェスタ | イベント一覧 | チ・カ・ホ [札幌駅前通地下広場]",
+      "url": "https://www.sapporo-chikamichi.jp/event/detail.asp?id=11063",
+      "source": "チ・カ・ホ",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "札幌三越 | 三越 店舗情報 | 三越伊勢丹公式サイト",
+      "url": "https://www.mitsukoshi.mistore.jp/sapporo.html",
+      "source": "札幌三越",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "SHOP & RESTAURANT",
+      "url": "https://www.mitsukoshi.mistore.jp/content/mitsukoshi/mistore/sapporo/shop_search.html?category_search[]=food",
+      "source": "札幌三越",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "丸井今井札幌本店 | 丸井今井 店舗情報",
+      "url": "https://www.maruiimai.mistore.jp/sapporo.html",
+      "source": "丸井今井",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "SHOP & RESTAURANT",
+      "url": "https://www.maruiimai.mistore.jp/content/maruiimai/mistore/sapporo/shop_search.html?category_search[]=food",
+      "source": "丸井今井",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "EVENT イベント",
+      "url": "https://sapporofactory.jp/event",
+      "source": "サッポロファクトリー",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "RESTAURANT・FOOD レストラン・フード",
+      "url": "https://sapporofactory.jp/restaurantfood",
+      "source": "サッポロファクトリー",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【限定お芋グルメ盛りだくさん♪】さっぽろ焼き芋テラス2025販売商品のご紹介 | さっぽろ焼き芋テラス",
+      "url": "https://sapporo-yakiimoterrace.com/2025info-2",
+      "source": "焼き芋テラス",
+      "first_seen": "2026-10-11",
+      "reason": "店名・所在地・実施日を確定できない"
+    }
+  ]
+}
