@@ -142,7 +142,14 @@
       "official": false,
       "checked_at": "2026-10-11",
       "aliases": [
-        199074633654163
+        199074633654163,
+        221173947166086
+      ],
+      "other_sources": [
+        {
+          "source": "札幌開店閉店インフォ",
+          "url": "https://chamonix-cakes.com/kaiten-ab8xy3tbasmr7m2bno"
+        }
       ]
     },
     {
@@ -160,7 +167,14 @@
       "official": false,
       "checked_at": "2026-10-11",
       "aliases": [
-        213116413563438
+        213116413563438,
+        83657395984247
+      ],
+      "other_sources": [
+        {
+          "source": "札幌ショップス・開店閉店",
+          "url": "https://www.shopship.jp/susukino/open-close/osusumeya_susukino"
+        }
       ]
     },
     {
@@ -207,21 +221,6 @@
       "genre": "飲食店",
       "text": "2026-10-21の開店情報。詳細は出典を確認してください。",
       "url": "https://www.shopship.jp/susukino/open-close/yogurtworld_coconosusukino",
-      "source": "札幌ショップス・開店閉店",
-      "official": false,
-      "checked_at": "2026-10-11"
-    },
-    {
-      "id": 83657395984247,
-      "name": "おすすめ屋 すすきの店",
-      "type": "開店",
-      "date": "2026-10-05",
-      "end": "",
-      "place": "〒064-0804 北海道札幌市中央区南四条西3-1-1 第3グリーンビル 8F",
-      "area": "札幌中心部",
-      "genre": "飲食店",
-      "text": "2026-10-05の開店情報。詳細は出典を確認してください。",
-      "url": "https://www.shopship.jp/susukino/open-close/osusumeya_susukino",
       "source": "札幌ショップス・開店閉店",
       "official": false,
       "checked_at": "2026-10-11"
@@ -334,21 +333,6 @@
       "text": "2026-10-22の開店情報。詳細は出典を確認してください。",
       "url": "https://www.shopship.jp/sapporo/open-close/olivenooka_sinkotoni",
       "source": "札幌ショップス・開店閉店",
-      "official": false,
-      "checked_at": "2026-10-11"
-    },
-    {
-      "id": 221173947166086,
-      "name": "北海道海鮮 個室居酒屋 うおっと 札幌駅北口店",
-      "type": "開店",
-      "date": "2026-10-14",
-      "end": "",
-      "place": "札幌市北区北7条西4丁目4-1 第5北海道通信ビル 2階",
-      "area": "札幌市内・周辺",
-      "genre": "飲食店",
-      "text": "2026-10-14の開店情報。詳細は出典を確認してください。",
-      "url": "https://chamonix-cakes.com/kaiten-ab8xy3tbasmr7m2bno",
-      "source": "札幌開店閉店インフォ",
       "official": false,
       "checked_at": "2026-10-11"
     },
