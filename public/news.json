@@ -150,7 +150,12 @@
           "source": "札幌開店閉店インフォ",
           "url": "https://chamonix-cakes.com/kaiten-ab8xy3tbasmr7m2bno"
         }
-      ]
+      ],
+      "contacts": {
+        "reservation_url": "https://www.hotpepper.jp/strJ004678854/",
+        "source_url": "https://www.hotpepper.jp/strJ004678854/",
+        "checked_at": "2026-10-11"
+      }
     },
     {
       "id": 213116413563438,
@@ -175,7 +180,14 @@
           "source": "札幌ショップス・開店閉店",
           "url": "https://www.shopship.jp/susukino/open-close/osusumeya_susukino"
         }
-      ]
+      ],
+      "contacts": {
+        "phone": "050-2030-7742",
+        "website_url": "https://osusumeya.co.jp/store/susukino/",
+        "reservation_url": "https://www.hotpepper.jp/strJ004698995/",
+        "source_url": "https://osusumeya.co.jp/store/susukino/",
+        "checked_at": "2026-10-11"
+      }
     },
     {
       "id": 268763480941645,
@@ -737,7 +749,14 @@
         "期間限定",
         "パン・スイーツ"
       ],
-      "social_links": []
+      "social_links": [],
+      "contacts": {
+        "phone": "011-232-3661",
+        "website_url": "https://kurache.com/",
+        "source_url": "https://kurache.com/",
+        "scope": "クラシェ事務局",
+        "checked_at": "2026-10-11"
+      }
     },
     {
       "id": 600109,
