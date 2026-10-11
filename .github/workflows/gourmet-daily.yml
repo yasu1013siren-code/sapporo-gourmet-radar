@@ -30,12 +30,15 @@ jobs:
         id: collect
         continue-on-error: true
         run: python collector.py
+      - name: Collect and preserve restaurant photos
+        run: python photo_collector.py
       - name: Save collected data
-        if: github.event_name != 'push' || contains(github.event.head_commit.message, '[collect]')
+        if: github.event_name != 'push' || contains(github.event.head_commit.message, '[collect]') || contains(github.event.head_commit.message, '[photos]')
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add public/news.json collection-report.json unconfirmed.json
+          mkdir -p public/assets/photos
+          git add public/news.json public/photos.json public/assets/photos collection-report.json unconfirmed.json
           if ! git diff --cached --quiet; then
             git commit -m 'Update Gourmet Radar data'
             git push
