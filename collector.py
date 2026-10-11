@@ -32,6 +32,12 @@ def deduplicate(items):
  for r in items:
   if NONFOOD.search(r.get('name','')):continue
   k=key(r)
+  for previous,existing in records.items():
+   same_event=existing['type']==r['type'] and existing['date']==r['date']
+   same_address=norm(existing.get('place'))==norm(r.get('place')) and len(norm(r.get('place')))>12
+   same_url=canonical(existing.get('url',''))==canonical(r.get('url','')) and bool(r.get('url'))
+   a,b=norm(existing['name']),norm(r['name'])
+   if same_event and (same_url or (same_address and min(len(a),len(b))>=4 and (a in b or b in a))):k=previous;break
   if k in records:
    old=records[k]
    # Keep original id and editorial description so saved notes remain attached.
@@ -91,15 +97,15 @@ def parse_page(soup,u,source,t):
  if not any(date_value(v) for v in execution):
   for p in main.select('p'):
    line=p.get_text(' ',strip=True)
-   if re.search('開催日|開催期間|会期|オープン日|開店日|閉店日|20\\d{2}年.{0,35}(?:オープン|OPEN|開店|閉店)',line,re.I):
+   if re.search(r'開催日|開催期間|会期|オープン日|開店日|閉店日|20\d{2}年.{0,35}(?:オープン|OPEN|開店|閉店)',line,re.I):
     execution.append(line[:400])
- dates=list(dict.fromkeys(filter(None,[date_value(x) for line in execution for x in re.findall(r'20\\d{2}\\s*[年/.-]\\s*\\d{1,2}\\s*[月/.-]\\s*\\d{1,2}(?:日)?',line)])))
+ dates=list(dict.fromkeys(filter(None,[date_value(x) for line in execution for x in re.findall(r'20\d{2}\s*[年/.-]\s*\d{1,2}\s*[月/.-]\s*\d{1,2}(?:日)?',line)])))
  place=next((v for k,v in fields.items() if re.search('住所|所在地|会場|開催場所',k)),'')
  if not place:
-  m=re.search(r'(?:住所|所在地|会場|開催場所)\\s*[:：]?\\s*(?:〒?[\\d－-]+\\s*)?((?:北海道)?(?:札幌|小樽|石狩|江別|北広島|千歳|恵庭|苫小牧)[^。]{2,100})',text)
+  m=re.search(r'(?:住所|所在地|会場|開催場所)\s*[:：]?\s*(?:〒?[\d－-]+\s*)?((?:北海道)?(?:札幌|小樽|石狩|江別|北広島|千歳|恵庭|苫小牧)[^。]{2,100})',text)
   if m:place=m.group(1)
  if place and not GEO.search(place):return None,{**candidate,'reason':'所在地が対象地域外'}
- name=''
+ name=next((v for k,v in fields.items() if k in ('店名','店舗名','イベント名')),'')
  m=re.search(r'[『「]([^』」]{2,70})[』」]',title)
  if m:name=m.group(1)
  # Prefer machine-readable Event data, where the dates are explicitly event dates.
@@ -138,6 +144,25 @@ def run():
  t=datetime.now(JST).date();stamp=datetime.now(JST).isoformat()
  old=json.loads((PUBLIC/'news.json').read_text(encoding='utf8')); records={key(r):r for r in deduplicate(old['items'])}
  report={'attempted_at':stamp,'sources':[]};links={};pending=[]
+ # Reuse the independent site's discovery, but re-check its original articles.
+ try:
+  response=requests.get('https://yasu1013siren-code.github.io/sapporo-inshoku/news.json',timeout=(6,18))
+  response.raise_for_status();upstream=response.json()
+  imported=0
+  for rows in upstream.get('areas',{}).values():
+   for item in rows:
+    if not re.fullmatch(r'20\d{2}-\d{2}-\d{2}',item.get('date','')):continue
+    kind={'open':'開店','upcoming':'開店','closed':'閉店','renewal':'リニューアル','event':'イベント'}.get(item.get('type'))
+    if not kind or not eligible({'type':kind,'date':item['date'],'end':item.get('end') or item['date']},t):continue
+    evidence=item.get('name','')+' '+item.get('note','')
+    if NONFOOD.search(evidence) or not FOOD.search(evidence):continue
+    urls=[{'url':item.get('url'),'name':item.get('source','既存収集サイト')}]+item.get('sources',[])
+    for entry in urls:
+     u=entry.get('url','')
+     if u.startswith('https://'):
+      links.setdefault(canonical(u),entry.get('name','既存収集サイト'));imported+=1
+  report['sources'].append({'source':'sapporo-inshoku（原記事再確認）','ok':True,'discovered_links':imported})
+ except Exception as e:report['sources'].append({'source':'sapporo-inshoku（原記事再確認）','ok':False,'error':type(e).__name__})
  # Keep a saved URL for direct re-check, alongside newly discovered detail links.
  for r in records.values():links[canonical(r['url'])]=r['source']
  for source,url in SOURCE_LIST:
@@ -151,29 +176,7 @@ def run():
     if urlsplit(href).netloc!=urlsplit(url).netloc:continue
     if canonical(href) in links:continue
     # List and category navigation must not consume the detail-article budget.
-    if re.search(r'/(?:category|page|tag)/|/(?:january|february|march|april|may|june|july|august|september|october|november|december)-open/?
-    if found>=50:break
-  except Exception as e:report['sources'].append({'source':source,'ok':False,'error':type(e).__name__})
- def detail(pair):
-  u,source=pair
-  try:return parse_page(get(u),u,source,t)
-  except Exception as e:return None,{'url':u,'source':source,'reason':type(e).__name__}
- checked=0
- with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
-  for r,c in pool.map(detail,list(links.items())[:300]):
-   if r:
-    records={key(v):v for v in deduplicate(list(records.values())+[r])};checked+=1
-   if c:pending.append(c)
- successes=sum(x['ok'] for x in report['sources'])
- report.update({'successful_sources':successes,'accepted_details':checked,'pending':len(pending)})
- atomic(ROOT/'collection-report.json',report);atomic(ROOT/'unconfirmed.json',{'checked_at':stamp,'items':pending})
- if not successes:raise RuntimeError('全情報源の取得失敗。既存公開データは保持します。')
- # Partial failures remain visible; last_success means a collection run, not every item re-verified.
- output={**old,'last_run':stamp,'status':'partial' if successes<len(SOURCE_LIST) else 'success','source_success_count':successes,'source_total':len(SOURCE_LIST),'items':list(records.values())}
- atomic(PUBLIC/'news.json',output)
- print(json.dumps(report,ensure_ascii=False))
-if __name__=='__main__':run()
-,href):continue
+    if re.search(r'/(?:category|page|tag)/|/(?:january|february|march|april|may|june|july|august|september|october|november|december)-open/?$',href):continue
     links.setdefault(canonical(href),source);found+=1
     if found>=50:break
   except Exception as e:report['sources'].append({'source':source,'ok':False,'error':type(e).__name__})
@@ -192,7 +195,7 @@ if __name__=='__main__':run()
  atomic(ROOT/'collection-report.json',report);atomic(ROOT/'unconfirmed.json',{'checked_at':stamp,'items':pending})
  if not successes:raise RuntimeError('全情報源の取得失敗。既存公開データは保持します。')
  # Partial failures remain visible; last_success means a collection run, not every item re-verified.
- output={**old,'last_run':stamp,'status':'partial' if successes<len(SOURCE_LIST) else 'success','source_success_count':successes,'source_total':len(SOURCE_LIST),'items':list(records.values())}
+ output={**old,'last_run':stamp,'status':'partial' if successes<len(report['sources']) else 'success','source_success_count':successes,'source_total':len(report['sources']),'items':list(records.values())}
  atomic(PUBLIC/'news.json',output)
  print(json.dumps(report,ensure_ascii=False))
 if __name__=='__main__':run()
