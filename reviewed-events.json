@@ -1,0 +1,234 @@
+{
+  "checked_at": "2026-10-11",
+  "items": [
+    {
+      "id": 600100,
+      "name": "第138回 全国うまいもの大会",
+      "type": "イベント",
+      "date": "2026-10-14",
+      "end": "2026-10-26",
+      "place": "丸井今井札幌本店 大通館9階催事場",
+      "area": "札幌中心部",
+      "genre": "百貨店催事・スイーツ",
+      "text": "全国の食品・スイーツ・パンが集まる催事。10/20は18時、最終日は17時終了。10/21から出店者が入れ替わるため、狙う店の出店期間を公式ページで確認。",
+      "url": "https://www.maruiimai.mistore.jp/sapporo/event_calendar/umaimono/index.html",
+      "source": "丸井今井公式",
+      "official": true,
+      "checked_at": "2026-10-11",
+      "tags": [
+        "百貨店催事"
+      ],
+      "social_links": []
+    },
+    {
+      "id": 600101,
+      "name": "秋のおすすめワイン特別販売会",
+      "type": "イベント",
+      "date": "2026-10-01",
+      "end": "2026-10-18",
+      "place": "札幌三越 本館地下1階／丸井今井 大通館地下2階",
+      "area": "札幌中心部",
+      "genre": "百貨店催事・ワイン",
+      "text": "ファインズのセットワイン販売企画。飲食の実演イベントではなく、店頭・オンラインでの注文販売。オンラインは最終日17時まで。",
+      "url": "https://www.mitsukoshi.mistore.jp/sapporo/shops/foods/foods/shopnews_list/shopnews_d031631112111.html",
+      "source": "札幌三越公式",
+      "official": true,
+      "checked_at": "2026-10-11",
+      "tags": [
+        "百貨店催事"
+      ],
+      "social_links": []
+    },
+    {
+      "id": 600102,
+      "name": "大丸札幌 ハロウィンスイーツ",
+      "type": "イベント",
+      "date": "2026-09-30",
+      "end": "2026-10-31",
+      "place": "大丸札幌店 地下1階 ほっぺタウン",
+      "area": "札幌中心部",
+      "genre": "期間限定スイーツ",
+      "text": "ハロウィンに合わせた菓子・ギフトの期間限定展開。季節のスイーツを比較する取材候補。商品・販売状況は公式ページで確認。",
+      "url": "https://www.daimaru.co.jp/sapporo/topics/gourmet-168401.html",
+      "source": "大丸札幌公式",
+      "official": true,
+      "checked_at": "2026-10-11",
+      "tags": [
+        "期間限定",
+        "スイーツ"
+      ],
+      "social_links": [
+        {
+          "name": "ほっぺタウン公式X",
+          "url": "https://x.com/hoppetown"
+        }
+      ]
+    },
+    {
+      "id": 600103,
+      "name": "KOGASHI 期間限定ショップ（一般販売中止）",
+      "type": "イベント",
+      "date": "2026-10-07",
+      "end": "2026-10-13",
+      "place": "大丸札幌店 地下1階 ほっぺタウン催事場",
+      "area": "札幌中心部",
+      "genre": "初登場スイーツ・販売制限",
+      "text": "神戸発のミニブリュレシュークリームが大丸札幌に初登場。機材不具合で会期中の一般販売は中止、予約受付も終了。予約済み分は1人1袋まで。新規購入目的の訪問は避け、最新のお知らせを確認。",
+      "url": "https://www.daimaru.co.jp/sapporo/topics/gourmet-170450.html",
+      "source": "大丸札幌公式",
+      "official": true,
+      "checked_at": "2026-10-11",
+      "tags": [
+        "大丸札幌初登場",
+        "期間限定",
+        "販売制限"
+      ],
+      "social_links": [
+        {
+          "name": "ほっぺタウン公式X",
+          "url": "https://x.com/hoppetown"
+        }
+      ]
+    },
+    {
+      "id": 600104,
+      "name": "いいモノいいコトマルシェ（フード出店）",
+      "type": "イベント",
+      "date": "2026-10-07",
+      "end": "2026-10-12",
+      "place": "大丸札幌店 7階催事場",
+      "area": "札幌中心部",
+      "genre": "百貨店催事・北海道フード",
+      "text": "北海道の食品とクラフトが集まる催事。掲載対象はフード出店。10〜19時、最終日は18時まで。店舗ごとの出店日・売切れは公式案内を確認。",
+      "url": "https://www.daimaru.co.jp/sapporo/iimonoiicoto202610/",
+      "source": "大丸札幌公式",
+      "official": true,
+      "checked_at": "2026-10-11",
+      "tags": [
+        "百貨店催事"
+      ],
+      "social_links": [
+        {
+          "name": "ほっぺタウン公式X",
+          "url": "https://x.com/hoppetown"
+        }
+      ]
+    },
+    {
+      "id": 600105,
+      "name": "ご褒日 キャロットケーキ限定出店",
+      "type": "イベント",
+      "date": "2026-10-17",
+      "end": "2026-10-17",
+      "place": "大丸札幌店 7階ライフスタイル雑貨売場",
+      "area": "札幌中心部",
+      "genre": "スイーツ・1日限定",
+      "text": "百花祭マルシェの食品出店。十勝のキャロットケーキを販売する1日限定の取材候補。価格・商品は公式案内を確認。",
+      "url": "https://www.daimaru.co.jp/sapporo/hyakka_marche/seven.html",
+      "source": "大丸札幌公式",
+      "official": true,
+      "checked_at": "2026-10-11",
+      "tags": [
+        "1日限定",
+        "スイーツ"
+      ],
+      "social_links": [
+        {
+          "name": "ほっぺタウン公式X",
+          "url": "https://x.com/hoppetown"
+        }
+      ]
+    },
+    {
+      "id": 600106,
+      "name": "parantaa 米粉マフィン限定出店",
+      "type": "イベント",
+      "date": "2026-10-14",
+      "end": "2026-10-16",
+      "place": "大丸札幌店 7階ライフスタイル雑貨売場",
+      "area": "札幌中心部",
+      "genre": "米粉スイーツ・期間限定",
+      "text": "百花祭マルシェに米粉マフィン専門店が出店。栗やかぼちゃを使う秋のスイーツ企画。アレルギー対応は商品ごとに店舗へ確認。",
+      "url": "https://www.daimaru.co.jp/sapporo/hyakka_marche/seven.html",
+      "source": "大丸札幌公式",
+      "official": true,
+      "checked_at": "2026-10-11",
+      "tags": [
+        "期間限定",
+        "スイーツ"
+      ],
+      "social_links": [
+        {
+          "name": "ほっぺタウン公式X",
+          "url": "https://x.com/hoppetown"
+        }
+      ]
+    },
+    {
+      "id": 600107,
+      "name": "Bakeshop コトリ 限定出店",
+      "type": "イベント",
+      "date": "2026-10-15",
+      "end": "2026-10-16",
+      "place": "大丸札幌店 7階ライフスタイル雑貨売場",
+      "area": "札幌中心部",
+      "genre": "焼き菓子・期間限定",
+      "text": "恵庭の焼菓子店が百花祭マルシェに2日間出店。かぼちゃの焼菓子など秋の手土産を紹介する取材候補。",
+      "url": "https://www.daimaru.co.jp/sapporo/hyakka_marche/seven.html",
+      "source": "大丸札幌公式",
+      "official": true,
+      "checked_at": "2026-10-11",
+      "tags": [
+        "期間限定",
+        "スイーツ"
+      ],
+      "social_links": [
+        {
+          "name": "ほっぺタウン公式X",
+          "url": "https://x.com/hoppetown"
+        }
+      ]
+    },
+    {
+      "id": 600108,
+      "name": "クラシェ「秋をほおばる」（食品出店）",
+      "type": "イベント",
+      "date": "2026-10-20",
+      "end": "2026-10-24",
+      "place": "札幌駅前通地下歩行空間 出口7と9の間",
+      "area": "札幌中心部",
+      "genre": "パン・焼菓子・秋の味覚",
+      "text": "10:30〜18:30。食品と雑貨の複合マルシェから、パン・焼菓子・コーヒーなどの出店を取材対象に。出店者ごとに日程が違うため公式の出店表を確認。",
+      "url": "https://kurache.com/",
+      "source": "クラシェ公式",
+      "official": true,
+      "checked_at": "2026-10-11",
+      "tags": [
+        "期間限定",
+        "パン・スイーツ"
+      ],
+      "social_links": []
+    },
+    {
+      "id": 600109,
+      "name": "Coffee Pairing Festival 2026 in Sapporo（終了）",
+      "type": "イベント",
+      "date": "2026-09-23",
+      "end": "2026-09-28",
+      "place": "大丸札幌店 7階催事場",
+      "area": "札幌中心部",
+      "genre": "北海道初上陸・コーヒーとスイーツ",
+      "text": "31店が出店したコーヒーとスイーツの催事。北海道初出店としてGARIGUETTE、SHICT、And Tei、プリン研究所などを紹介。会期は終了済みで、現在販売中という意味ではありません。次回出店を追う候補。",
+      "url": "https://prtimes.jp/main/html/rd/p/000000015.000035237.html",
+      "source": "主催者発表（PR TIMES）",
+      "official": true,
+      "checked_at": "2026-10-11",
+      "tags": [
+        "終了済み",
+        "北海道初上陸",
+        "スイーツ"
+      ],
+      "social_links": []
+    }
+  ]
+}
