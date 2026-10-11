@@ -1,0 +1,44 @@
+{
+  "checked_at": "2026-10-11",
+  "items": [
+    {
+      "id": "bluepond",
+      "name": "BLUE POND 大丸札幌店",
+      "area": "札幌中心部",
+      "genre": "キャラメルミルクスイーツ",
+      "signal": "販売実績・行列（店舗公表）",
+      "evidence": "運営会社は代表商品の累計100万個販売、行列が100人を超える日があると公表。販売順位は大丸札幌店の限定商品・和洋菓子部門、2026年1月3日〜5月15日の集計に限る。札幌全店の人気順位ではありません。",
+      "source": "運営会社の発表",
+      "url": "https://prtimes.jp/main/html/rd/p/000002109.000025606.html",
+      "website_url": "https://www.bluepond.jp",
+      "keyword": "BLUE POND",
+      "campaign": "10/8〜10/21、税込2,160円以上購入で巾着プレゼント。各日先着200人。",
+      "signal_date": "2026-10-01"
+    },
+    {
+      "id": "milkdodoreiku",
+      "name": "MILK DO dore iku? 札幌本店",
+      "area": "札幌中心部",
+      "genre": "生ドーナツ",
+      "signal": "SNS紹介を集計した外部サイトに掲載",
+      "evidence": "SNS紹介を集計するHamoniの札幌ドーナツ一覧で掲載を確認。視聴集計の対象期間・網羅性を確認できないため、当サイトでは人気順位や検索回数に換算しません。",
+      "source": "Hamoni（SNS集計・第三者）",
+      "url": "https://hamoni.jp/area/hokkaido/sapporo/shops/donuts",
+      "social_url": "https://www.instagram.com/milkdodoreiku/",
+      "keyword": "ミルクドドレイク 札幌",
+      "signal_date": "2026-10-11"
+    },
+    {
+      "id": "melt",
+      "name": "melt donut",
+      "area": "札幌中心部",
+      "genre": "生ドーナツ",
+      "signal": "SNS紹介を集計した外部サイトに掲載",
+      "evidence": "Hamoniの札幌ドーナツ一覧でSNS紹介の対象店舗として掲載を確認。投稿の内容と訪問時点の営業状況を照合する取材候補。",
+      "source": "Hamoni（SNS集計・第三者）",
+      "url": "https://hamoni.jp/area/hokkaido/sapporo/shops/donuts",
+      "keyword": "melt donut 札幌",
+      "signal_date": "2026-10-11"
+    }
+  ]
+}
