@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /admin.html
+Sitemap: https://yasu1013siren-code.github.io/sapporo-gourmet-radar/sitemap.xml
