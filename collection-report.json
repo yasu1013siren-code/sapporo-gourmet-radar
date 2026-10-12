@@ -1,10 +1,10 @@
 {
-  "attempted_at": "2026-10-11T13:32:20.984980+09:00",
+  "attempted_at": "2026-10-12T09:49:23.217246+09:00",
   "sources": [
     {
       "source": "sapporo-inshoku（原記事再確認）",
       "ok": true,
-      "discovered_links": 104
+      "discovered_links": 106
     },
     {
       "source": "札幌リスト",
@@ -46,9 +46,30 @@
     {
       "source": "焼き芋テラス",
       "ok": true
+    },
+    {
+      "source": "大丸札幌 食品催事",
+      "ok": true
+    },
+    {
+      "source": "大丸札幌 グルメ企画",
+      "ok": false,
+      "error": "HTTPError"
+    },
+    {
+      "source": "札幌三越 食品ニュース",
+      "ok": true
+    },
+    {
+      "source": "丸井今井 食品催事",
+      "ok": true
+    },
+    {
+      "source": "クラシェ 食品出店",
+      "ok": true
     }
   ],
-  "successful_sources": 10,
-  "accepted_details": 31,
-  "pending": 65
+  "successful_sources": 14,
+  "accepted_details": 33,
+  "pending": 88
 }
