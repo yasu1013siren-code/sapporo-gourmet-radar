@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-13T11:46:13.980389+09:00",
+  "checked_at": "2026-10-13T21:13:01.629622+09:00",
   "items": [
     {
       "name": "【4PLA】グルメバーガー日本一の味が札幌に10月9日（木）オープン！神戸発「BRISKSTAND（ブリスクスタンド）」北海道初上陸",
@@ -37,11 +37,10 @@
       "reason": "店名・所在地・実施日を確定できない"
     },
     {
-      "name": "Instagram",
       "url": "https://www.instagram.com/5.hundred_sapporo",
       "source": "mogtrip・新店",
-      "first_seen": "2026-10-13",
-      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+      "reason": "HTTPError",
+      "error_detail": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2F5.hundred_sapporo&is_from_rle"
     },
     {
       "name": "北海道　焼肉　百折歩撓　羊と牛とジビエと海鮮",
@@ -65,18 +64,23 @@
       "reason": "店名・所在地・実施日を確定できない"
     },
     {
-      "name": "Instagram",
       "url": "https://www.instagram.com/pu.rimona",
       "source": "mogtrip・新店",
-      "first_seen": "2026-10-13",
-      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+      "reason": "HTTPError",
+      "error_detail": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fpu.rimona&is_from_rle"
     },
     {
-      "name": "Instagram",
       "url": "https://www.instagram.com/eishin1830",
       "source": "mogtrip・新店",
+      "reason": "HTTPError",
+      "error_detail": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Feishin1830&is_from_rle"
+    },
+    {
+      "name": "【札幌市北区】スパイスカレーの「Im Spice」が10月28日で現店舗の営業終了へ。移転先が決まるのを楽しみに待ちましょう",
+      "url": "https://sapporokitaku.goguynet.jp/2026/10/13/imspice",
+      "source": "号外NET 札幌市北区",
       "first_seen": "2026-10-13",
-      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+      "reason": "店名・所在地・実施日を確定できない"
     },
     {
       "name": "居酒屋「新時代」が札幌3店舗目「新時代 札幌麻生店」10月27日（月）オープン！",
@@ -93,11 +97,10 @@
       "reason": "店名・所在地・実施日を確定できない"
     },
     {
-      "name": "Instagram",
       "url": "https://www.instagram.com/sprout_coffeeroastery",
       "source": "mogtrip・新店",
-      "first_seen": "2026-10-13",
-      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+      "reason": "HTTPError",
+      "error_detail": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fsprout_coffeeroastery&is_from_rle"
     },
     {
       "name": "原始焼き酒場　ルンゴカーニバル　極(きわめ)",
@@ -128,18 +131,16 @@
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
-      "name": "Instagram",
       "url": "https://www.instagram.com/choioden_sapporosumikawa",
       "source": "mogtrip・新店",
-      "first_seen": "2026-10-13",
-      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+      "reason": "HTTPError",
+      "error_detail": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fchoioden_sapporosumikawa&is_from_rle"
     },
     {
-      "name": "Instagram",
       "url": "https://www.instagram.com/hachinohelover",
       "source": "mogtrip・新店",
-      "first_seen": "2026-10-13",
-      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+      "reason": "HTTPError",
+      "error_detail": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fhachinohelover&is_from_rle"
     },
     {
       "name": "【街角のレモンベーカリー琴似店】イオン札幌琴似店にレモンベーカリーの2号店がオープン！琴似店限定の新商品も",
@@ -177,13 +178,6 @@
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
-      "name": "【函館市】2026年10月31日（土）で西桔梗町にある『中華桃園』が閉店するそうです。",
-      "url": "https://hakodate.goguynet.jp/2026/08/17/chuka-toyen",
-      "source": "号外NET 函館市",
-      "first_seen": "2026-10-13",
-      "reason": "店名・所在地・実施日を確定できない"
-    },
-    {
       "name": "函館市西旭岡町にCafe Ikazuwaが9/24開店｜営業は木金土の10-15時だけ、12席・駐車3台・現金のみ",
       "url": "https://hakodate.8agarage.co.jp/hakodate-cafe-ikazuwa-open-2026-09-24",
       "source": "函館イベントナビ",
@@ -198,6 +192,13 @@
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
+      "name": "【函館市】2026年10月31日（土）で西桔梗町にある『中華桃園』が閉店するそうです。",
+      "url": "https://hakodate.goguynet.jp/2026/08/17/chuka-toyen",
+      "source": "号外NET 函館市",
+      "first_seen": "2026-10-13",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
       "name": "【札幌】2026年10月にオープンするお店",
       "url": "https://sapporo-list.info/open/october-open",
       "source": "札幌リスト",
@@ -207,7 +208,8 @@
     {
       "url": "https://mrs.living.jp/sapporo/newopen",
       "source": "リビング札幌Web",
-      "reason": "SSLError"
+      "reason": "SSLError",
+      "error_detail": "HTTPSConnectionPool(host='mrs.living.jp', port=443): Max retries exceeded with url: /sapporo/newopen (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)')))"
     },
     {
       "name": "閉店情報 – category –",
@@ -245,16 +247,16 @@
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
-      "name": "",
       "url": "https://www.daimaru.co.jp/sapporo/topics/gourmet-170450.html",
       "source": "大丸札幌公式",
-      "first_seen": "2026-10-13",
-      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+      "reason": "HTTPError",
+      "error_detail": "403 Client Error: Forbidden for url: https://www.daimaru.co.jp/sapporo/topics/gourmet-170450.html"
     },
     {
       "url": "https://www.daimaru.co.jp/sapporo/iimonoiicoto202610",
       "source": "大丸札幌公式",
-      "reason": "HTTPError"
+      "reason": "HTTPError",
+      "error_detail": "403 Client Error: Forbidden for url: https://www.daimaru.co.jp/sapporo/iimonoiicoto202610/"
     },
     {
       "name": "",
@@ -346,6 +348,20 @@
       "source": "札幌速報",
       "first_seen": "2026-10-13",
       "reason": "グルメ対象外"
+    },
+    {
+      "name": "カニ足を2本包んだ1粒60gの餃子！SAPPORO餃子製造所通販で『超大粒かに餃子』を期間限定販売",
+      "url": "https://sapporo-sokuho.com/archives/post-113813.html",
+      "source": "札幌速報",
+      "first_seen": "2026-10-13",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "「白い恋人」が発売50周年を機にブランドリニューアル",
+      "url": "https://sapporo-sokuho.com/archives/post-113803.html",
+      "source": "札幌速報",
+      "first_seen": "2026-10-13",
+      "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "パーソナルジム『APT ROOM 札幌北24条店』が10月10日オープン！",
@@ -526,6 +542,13 @@
       "name": "ほっぺタウン",
       "url": "https://www.daimaru.co.jp/sapporo/hoppetown",
       "source": "大丸札幌 食品催事",
+      "first_seen": "2026-10-13",
+      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+    },
+    {
+      "name": "",
+      "url": "https://www.daimaru.co.jp/sapporo",
+      "source": "大丸札幌 グルメ企画",
       "first_seen": "2026-10-13",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },

@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-13T11:46:13.980389+09:00",
+  "last_run": "2026-10-13T21:13:01.629622+09:00",
   "status": "partial",
   "items": [
     {
@@ -138,12 +138,12 @@
       "type": "開店",
       "date": "2026-10-14",
       "end": "",
-      "place": "〒060-0807 北海道札幌市北区北7条西4-4-1 第5道通ビル 2F",
+      "place": "札幌市北区北7条西4-4-1 第5道通ビル　2F",
       "area": "札幌市内・周辺",
       "genre": "飲食店",
       "text": "2026-10-14の開店情報。詳細は出典を確認してください。",
-      "url": "https://www.shopship.jp/sapporo/open-close/uotto-sapporoeki-kitaguti",
-      "source": "札幌ショップス",
+      "url": "https://sapporo-sokuho.com/archives/post-113509.html",
+      "source": "札幌速報",
       "official": false,
       "checked_at": "2026-10-13",
       "contacts": {
@@ -997,9 +997,12 @@
         "reservation_url": "https://tabelog.com/hokkaido/A0101/A010102/1086164/",
         "source_url": "https://www.shopship.jp/sapporo/open-close/nomitei-sapporo-nishi11",
         "checked_at": "2026-10-13"
-      }
+      },
+      "aliases": [
+        214191629315570
+      ]
     }
   ],
-  "source_success_count": 14,
+  "source_success_count": 15,
   "source_total": 16
 }

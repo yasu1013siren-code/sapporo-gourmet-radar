@@ -1,10 +1,10 @@
 {
-  "attempted_at": "2026-10-13T11:46:13.980389+09:00",
+  "attempted_at": "2026-10-13T21:13:01.629622+09:00",
   "sources": [
     {
       "source": "sapporo-inshoku（原記事再確認）",
       "ok": true,
-      "discovered_links": 106
+      "discovered_links": 113
     },
     {
       "source": "札幌リスト",
@@ -53,8 +53,7 @@
     },
     {
       "source": "大丸札幌 グルメ企画",
-      "ok": false,
-      "error": "HTTPError"
+      "ok": true
     },
     {
       "source": "札幌三越 食品ニュース",
@@ -69,7 +68,7 @@
       "ok": true
     }
   ],
-  "successful_sources": 14,
+  "successful_sources": 15,
   "accepted_details": 36,
-  "pending": 88
+  "pending": 92
 }
