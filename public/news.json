@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-12T09:49:23.217246+09:00",
+  "last_run": "2026-10-13T11:46:13.980389+09:00",
   "status": "partial",
   "items": [
     {
@@ -59,7 +59,7 @@
       "url": "https://sapporo-sokuho.com/archives/post-112756.html",
       "source": "札幌速報",
       "official": false,
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "end": "",
       "aliases": [
         28254997746911
@@ -121,7 +121,7 @@
       "url": "https://sapporo-sokuho.com/archives/post-113454.html",
       "source": "札幌速報",
       "official": false,
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "end": "",
       "aliases": [
         2934616422511
@@ -129,7 +129,7 @@
       "contacts": {
         "phone": "011-769-0222",
         "source_url": "https://sapporo-sokuho.com/archives/post-113454.html",
-        "checked_at": "2026-10-12"
+        "checked_at": "2026-10-13"
       }
     },
     {
@@ -138,14 +138,14 @@
       "type": "開店",
       "date": "2026-10-14",
       "end": "",
-      "place": "札幌市北区北7条西4-4-1 第5道通ビル　2F",
+      "place": "〒060-0807 北海道札幌市北区北7条西4-4-1 第5道通ビル 2F",
       "area": "札幌市内・周辺",
       "genre": "飲食店",
       "text": "2026-10-14の開店情報。詳細は出典を確認してください。",
-      "url": "https://sapporo-sokuho.com/archives/post-113509.html",
-      "source": "札幌速報",
+      "url": "https://www.shopship.jp/sapporo/open-close/uotto-sapporoeki-kitaguti",
+      "source": "札幌ショップス",
       "official": false,
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "contacts": {
         "reservation_url": "https://www.hotpepper.jp/strJ004678854/",
         "source_url": "https://www.hotpepper.jp/strJ004678854/",
@@ -153,7 +153,8 @@
       },
       "aliases": [
         199074633654163,
-        221173947166086
+        221173947166086,
+        194730264221664
       ],
       "other_sources": [
         {
@@ -175,7 +176,7 @@
       "url": "https://www.shopship.jp/susukino/open-close/osusumeya_susukino",
       "source": "札幌ショップス・開店閉店",
       "official": false,
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "aliases": [
         213116413563438,
         83657395984247
@@ -207,7 +208,7 @@
       "url": "https://www.shopship.jp/shiroishi/open-close/sumibiyabb_nango13",
       "source": "札幌ショップス・開店閉店",
       "official": false,
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "aliases": [
         268344477307969
       ],
@@ -215,7 +216,7 @@
         "website_url": "https://sumibiyabb.com/",
         "reservation_url": "https://tabelog.com/hokkaido/A0101/A010301/1085917/",
         "source_url": "https://www.shopship.jp/shiroishi/open-close/sumibiyabb_nango13",
-        "checked_at": "2026-10-12"
+        "checked_at": "2026-10-13"
       }
     },
     {
@@ -231,11 +232,11 @@
       "url": "https://www.shopship.jp/sapporo/open-close/michiru-dkdining-sapporo",
       "source": "札幌ショップス・中央区",
       "official": false,
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "contacts": {
         "reservation_url": "https://tabelog.com/hokkaido/A0101/A010101/1085998/",
         "source_url": "https://www.shopship.jp/sapporo/open-close/michiru-dkdining-sapporo",
-        "checked_at": "2026-10-12"
+        "checked_at": "2026-10-13"
       },
       "aliases": [
         9214983694652
@@ -254,11 +255,11 @@
       "url": "https://www.shopship.jp/susukino/open-close/yogurtworld_coconosusukino",
       "source": "札幌ショップス・開店閉店",
       "official": false,
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "contacts": {
         "reservation_url": "https://tabelog.com/hokkaido/A0101/A010103/1085922/",
         "source_url": "https://www.shopship.jp/susukino/open-close/yogurtworld_coconosusukino",
-        "checked_at": "2026-10-12"
+        "checked_at": "2026-10-13"
       },
       "aliases": [
         27149230168961
@@ -277,11 +278,11 @@
       "url": "https://www.shopship.jp/sapporo/open-close/northcontinent",
       "source": "札幌ショップス・開店閉店",
       "official": false,
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "contacts": {
         "reservation_url": "https://tabelog.com/hokkaido/A0101/A010102/1085902/",
         "source_url": "https://www.shopship.jp/sapporo/open-close/northcontinent",
-        "checked_at": "2026-10-12"
+        "checked_at": "2026-10-13"
       },
       "aliases": [
         76163255728774
@@ -300,7 +301,7 @@
       "url": "https://www.shopship.jp/sapporo/open-close/baristartcoffee",
       "source": "札幌ショップス・開店閉店",
       "official": false,
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "aliases": [
         241160843605939
       ]
@@ -318,11 +319,11 @@
       "url": "https://www.shopship.jp/susukino/open-close/susukino-yokocho-izakaya",
       "source": "札幌ショップス・開店閉店",
       "official": false,
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "contacts": {
         "reservation_url": "https://tabelog.com/hokkaido/A0101/A010104/1085901/",
         "source_url": "https://www.shopship.jp/susukino/open-close/susukino-yokocho-izakaya",
-        "checked_at": "2026-10-12"
+        "checked_at": "2026-10-13"
       },
       "aliases": [
         253803193459949,
@@ -342,7 +343,7 @@
       "url": "https://www.shopship.jp/sapporo/open-close/teppan-hamburg-yoshidaya_sapporo",
       "source": "札幌ショップス・開店閉店",
       "official": false,
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "aliases": [
         171764672469499,
         133641700614232
@@ -361,11 +362,11 @@
       "url": "https://www.shopship.jp/sapporo/open-close/soba-bar-fukuchan",
       "source": "札幌ショップス・開店閉店",
       "official": false,
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "contacts": {
         "reservation_url": "https://tabelog.com/hokkaido/A0101/A010102/1085847/",
         "source_url": "https://www.shopship.jp/sapporo/open-close/soba-bar-fukuchan",
-        "checked_at": "2026-10-12"
+        "checked_at": "2026-10-13"
       },
       "aliases": [
         138929712814890
@@ -384,7 +385,7 @@
       "url": "https://www.shopship.jp/susukino/open-close/hyakusetsufuto_20260924",
       "source": "札幌ショップス・開店閉店",
       "official": false,
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "aliases": [
         138217799372822
       ]
@@ -402,12 +403,12 @@
       "url": "https://www.shopship.jp/sapporo/open-close/olivenooka_sinkotoni",
       "source": "札幌ショップス・開店閉店",
       "official": false,
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "contacts": {
         "website_url": "https://maps.olivenooka.jp/jp/detail/6621.html",
         "reservation_url": "https://tabelog.com/hokkaido/A0101/A010201/1086112/",
         "source_url": "https://www.shopship.jp/sapporo/open-close/olivenooka_sinkotoni",
-        "checked_at": "2026-10-12"
+        "checked_at": "2026-10-13"
       },
       "aliases": [
         55974404657998
@@ -472,11 +473,11 @@
       "url": "https://www.shopship.jp/toyohira/open-close/nounours_cafe",
       "source": "札幌ショップス・開店閉店",
       "official": false,
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "contacts": {
         "reservation_url": "https://tabelog.com/hokkaido/A0101/A010303/1069648/",
         "source_url": "https://www.shopship.jp/toyohira/open-close/nounours_cafe",
-        "checked_at": "2026-10-12"
+        "checked_at": "2026-10-13"
       },
       "aliases": [
         256832560344636
@@ -495,12 +496,12 @@
       "url": "https://www.shopship.jp/sapporo/open-close/olivenooka_sapporo-nishimachi",
       "source": "札幌ショップス・開店閉店",
       "official": false,
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "contacts": {
         "website_url": "https://maps.olivenooka.jp/jp/detail/6620.html",
         "reservation_url": "https://tabelog.com/hokkaido/A0101/A010204/1086111/",
         "source_url": "https://www.shopship.jp/sapporo/open-close/olivenooka_sapporo-nishimachi",
-        "checked_at": "2026-10-12"
+        "checked_at": "2026-10-13"
       },
       "aliases": [
         230820016201052
@@ -512,21 +513,22 @@
       "type": "開店",
       "date": "2026-09-28",
       "end": "",
-      "place": "札幌市西区琴似2条4丁目2-2 イオン札幌琴似店1F",
+      "place": "〒063-0812 北海道札幌市西区琴似二条4-2-2 イオン札幌琴似店 1F",
       "area": "札幌市内・周辺",
       "genre": "飲食店",
       "text": "2026-09-28の開店情報。詳細は出典を確認してください。",
-      "url": "https://sapporo-sokuho.com/archives/post-112141.html",
-      "source": "札幌速報・閉店",
+      "url": "https://www.shopship.jp/sapporo/open-close/lemonbakery_kotoni",
+      "source": "札幌ショップス",
       "official": false,
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "contacts": {
-        "phone": "011-600-0973",
-        "source_url": "https://sapporo-sokuho.com/archives/post-112141.html",
-        "checked_at": "2026-10-12"
+        "reservation_url": "https://tabelog.com/hokkaido/A0101/A010204/1086152/",
+        "source_url": "https://www.shopship.jp/sapporo/open-close/lemonbakery_kotoni",
+        "checked_at": "2026-10-13"
       },
       "aliases": [
-        22549515384393
+        22549515384393,
+        11020345249823
       ]
     },
     {
@@ -542,11 +544,11 @@
       "url": "https://www.shopship.jp/kiyota/open-close/yagien-softcream-coffee",
       "source": "札幌ショップス・開店閉店",
       "official": false,
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "contacts": {
         "reservation_url": "https://tabelog.com/hokkaido/A0101/A010301/1085926/",
         "source_url": "https://www.shopship.jp/kiyota/open-close/yagien-softcream-coffee",
-        "checked_at": "2026-10-12"
+        "checked_at": "2026-10-13"
       },
       "aliases": [
         109638243274627
@@ -565,11 +567,11 @@
       "url": "https://www.shopship.jp/sapporo/open-close/hachinohelover",
       "source": "札幌ショップス",
       "official": false,
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "contacts": {
         "reservation_url": "https://tabelog.com/hokkaido/A0101/A010204/1086121/",
         "source_url": "https://www.shopship.jp/sapporo/open-close/hachinohelover",
-        "checked_at": "2026-10-12"
+        "checked_at": "2026-10-13"
       },
       "aliases": [
         52766669968666
@@ -588,11 +590,11 @@
       "url": "https://www.shopship.jp/susukino/open-close/5-hundred_sapporo",
       "source": "札幌ショップス",
       "official": false,
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "contacts": {
         "reservation_url": "https://tabelog.com/hokkaido/A0101/A010103/1086104/",
         "source_url": "https://www.shopship.jp/susukino/open-close/5-hundred_sapporo",
-        "checked_at": "2026-10-12"
+        "checked_at": "2026-10-13"
       },
       "aliases": [
         186020110856953
@@ -611,11 +613,11 @@
       "url": "https://www.shopship.jp/sapporo/open-close/sprout_coffeeroastery_sapporo",
       "source": "札幌ショップス",
       "official": false,
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "contacts": {
         "reservation_url": "https://tabelog.com/hokkaido/A0101/A010201/1086100/",
         "source_url": "https://www.shopship.jp/sapporo/open-close/sprout_coffeeroastery_sapporo",
-        "checked_at": "2026-10-12"
+        "checked_at": "2026-10-13"
       },
       "aliases": [
         248025884846145
@@ -634,11 +636,11 @@
       "url": "https://www.shopship.jp/susukino/open-close/eishin1830",
       "source": "札幌ショップス",
       "official": false,
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "contacts": {
         "reservation_url": "https://tabelog.com/hokkaido/A0101/A010103/1086042/",
         "source_url": "https://www.shopship.jp/susukino/open-close/eishin1830",
-        "checked_at": "2026-10-12"
+        "checked_at": "2026-10-13"
       },
       "aliases": [
         147303303042410
@@ -657,11 +659,11 @@
       "url": "https://www.shopship.jp/sapporo/open-close/izakaya_nigou",
       "source": "札幌ショップス",
       "official": false,
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "contacts": {
         "reservation_url": "https://tabelog.com/hokkaido/A0101/A010102/1086063/",
         "source_url": "https://www.shopship.jp/sapporo/open-close/izakaya_nigou",
-        "checked_at": "2026-10-12"
+        "checked_at": "2026-10-13"
       },
       "aliases": [
         19917649370518
@@ -680,12 +682,12 @@
       "url": "https://www.shopship.jp/sapporo/open-close/lungocarnival-kiwame",
       "source": "札幌ショップス",
       "official": false,
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "contacts": {
         "website_url": "https://lungokiwame.owst.jp/",
         "reservation_url": "https://tabelog.com/hokkaido/A0101/A010101/1084941/",
         "source_url": "https://www.shopship.jp/sapporo/open-close/lungocarnival-kiwame",
-        "checked_at": "2026-10-12"
+        "checked_at": "2026-10-13"
       },
       "aliases": [
         52970014833731
@@ -704,11 +706,11 @@
       "url": "https://www.shopship.jp/sapporo/open-close/pu-rimona",
       "source": "札幌ショップス",
       "official": false,
-      "checked_at": "2026-10-12",
+      "checked_at": "2026-10-13",
       "contacts": {
         "reservation_url": "https://tabelog.com/hokkaido/A0101/A010105/1085509/",
         "source_url": "https://www.shopship.jp/sapporo/open-close/pu-rimona",
-        "checked_at": "2026-10-12"
+        "checked_at": "2026-10-13"
       },
       "aliases": [
         199444983771288
@@ -971,6 +973,30 @@
         "phone": "011-577-4958",
         "source_url": "https://chamonix-cakes.com/heiten-abj6aa0fkb06va2bnc",
         "checked_at": "2026-10-12"
+      },
+      "aliases": [
+        167299089369218
+      ]
+    },
+    {
+      "id": 214191629315570,
+      "name": "のみ亭",
+      "type": "開店",
+      "date": "2026-09-24",
+      "end": "",
+      "place": "〒060-0061 北海道札幌市中央区南1条西10丁目4-144 2階",
+      "area": "札幌中心部",
+      "genre": "飲食店",
+      "text": "2026-09-24の開店情報。詳細は出典を確認してください。",
+      "url": "https://www.shopship.jp/sapporo/open-close/nomitei-sapporo-nishi11",
+      "source": "札幌ショップス",
+      "official": false,
+      "checked_at": "2026-10-13",
+      "contacts": {
+        "website_url": "https://katoshoten.jp/nomitei/",
+        "reservation_url": "https://tabelog.com/hokkaido/A0101/A010102/1086164/",
+        "source_url": "https://www.shopship.jp/sapporo/open-close/nomitei-sapporo-nishi11",
+        "checked_at": "2026-10-13"
       }
     }
   ],
