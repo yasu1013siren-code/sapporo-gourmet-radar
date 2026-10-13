@@ -5,7 +5,7 @@ from urllib.parse import urlsplit
 
 SOURCES=[
  ('大丸札幌 食品催事','https://www.daimaru.co.jp/sapporo/hoppetown/'),
- ('大丸札幌 グルメ企画','https://www.daimaru.co.jp/sapporo/topics/'),
+ ('大丸札幌 グルメ企画','https://www.daimaru.co.jp/sapporo/'),
  ('札幌三越 食品ニュース','https://www.mitsukoshi.mistore.jp/sapporo/shops/foods/foods/shopnews_list.html'),
  ('丸井今井 食品催事','https://www.maruiimai.mistore.jp/sapporo/event_calendar.html'),
  ('クラシェ 食品出店','https://kurache.com/')]
