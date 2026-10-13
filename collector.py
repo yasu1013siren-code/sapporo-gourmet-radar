@@ -4,6 +4,9 @@ import calendar, concurrent.futures, hashlib, json, re, time, unicodedata
 from datetime import datetime, date, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlsplit, urlunsplit
+import truststore
+# Use the maintained OS certificate store, keeping hostname and chain verification.
+truststore.inject_into_ssl()
 import requests
 from bs4 import BeautifulSoup
 
@@ -180,7 +183,7 @@ def run():
      if u.startswith('https://'):
       links.setdefault(canonical(u),entry.get('name','既存収集サイト'));imported+=1
   report['sources'].append({'source':'sapporo-inshoku（原記事再確認）','ok':True,'discovered_links':imported})
- except Exception as e:report['sources'].append({'source':'sapporo-inshoku（原記事再確認）','ok':False,'error':type(e).__name__})
+ except Exception as e:report['sources'].append({'source':'sapporo-inshoku（原記事再確認）','ok':False,'error':type(e).__name__,'error_detail':str(e)[:500]})
  # Keep a saved URL for direct re-check, alongside newly discovered detail links.
  for r in records.values():links[canonical(r['url'])]=r['source']
  for source,url in SOURCE_LIST:
@@ -207,7 +210,7 @@ def run():
     return (event,None) if eligible(event,t) else (None,{'name':event['name'],'url':u,'source':source,'reason':'掲載期間外'})
    if candidate:return None,candidate
    return parse_page(soup,u,source,t)
-  except Exception as e:return None,{'url':u,'source':source,'reason':type(e).__name__}
+  except Exception as e:return None,{'url':u,'source':source,'reason':type(e).__name__,'error_detail':str(e)[:500]}
  checked=0
  with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
   for r,c in pool.map(detail,list(links.items())[:300]):
