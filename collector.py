@@ -200,7 +200,7 @@ def run():
     if re.search(r'/(?:category|page|tag)/|/(?:january|february|march|april|may|june|july|august|september|october|november|december)-open/?$',href):continue
     links.setdefault(canonical(href),source);found+=1
     if found>=50:break
-  except Exception as e:report['sources'].append({'source':source,'ok':False,'error':type(e).__name__})
+  except Exception as e:report['sources'].append({'source':source,'ok':False,'error':type(e).__name__,'error_detail':str(e)[:500]})
  def detail(pair):
   u,source=pair
   try:
