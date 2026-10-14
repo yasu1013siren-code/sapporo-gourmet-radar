@@ -73,7 +73,7 @@ def in_sapporo(r):
 def eligible(r,t):
  try: start=date.fromisoformat(r['date']);end=date.fromisoformat(r.get('end') or r['date'])
  except (KeyError,ValueError): return False
- return end>=start and start<=shift(t,1) and end>=shift(t,-1) and (r['type']!='閉店' or start>=t)
+ return end>=start and start<=shift(t,1) and end>=shift(t,-1) and (r['type']!='閉店' or start>=t) and (r['type']!='イベント' or end>=t)
 def get(u):
  for attempt in range(2):
   try:
@@ -227,7 +227,7 @@ def run():
  atomic(ROOT/'collection-report.json',report);atomic(ROOT/'unconfirmed.json',{'checked_at':stamp,'items':pending})
  if not successes:raise RuntimeError('全情報源の取得失敗。既存公開データは保持します。')
  # Partial failures remain visible; last_success means a collection run, not every item re-verified.
- output={**old,'last_run':stamp,'status':'partial' if successes<len(report['sources']) else 'success','source_success_count':successes,'source_total':len(report['sources']),'items':[r for r in records.values() if in_sapporo(r)]}
+ output={**old,'last_run':stamp,'status':'partial' if successes<len(report['sources']) else 'success','source_success_count':successes,'source_total':len(report['sources']),'items':[r for r in records.values() if in_sapporo(r) and (r['type']!='イベント' or eligible(r,t))]}
  atomic(PUBLIC/'news.json',output)
  print(json.dumps(report,ensure_ascii=False))
 if __name__=='__main__':run()
