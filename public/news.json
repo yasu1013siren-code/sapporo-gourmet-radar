@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-14T16:37:20.432671+09:00",
+  "last_run": "2026-10-14T16:40:58.066784+09:00",
   "status": "partial",
   "items": [
     {
@@ -1021,7 +1021,10 @@
         "reservation_url": "https://tabelog.com/hokkaido/A0101/A010201/1086176/",
         "source_url": "https://www.shopship.jp/sapporo/open-close/gindaco_highball_kita24jo",
         "checked_at": "2026-10-14"
-      }
+      },
+      "aliases": [
+        218198774109013
+      ]
     },
     {
       "id": 195444568375111,
@@ -1042,9 +1045,12 @@
         "reservation_url": "https://tabelog.com/hokkaido/A0101/A010102/1086172/",
         "source_url": "https://www.shopship.jp/odori/open-close/pairingx_hokkaido",
         "checked_at": "2026-10-14"
-      }
+      },
+      "aliases": [
+        195444568375111
+      ]
     }
   ],
-  "source_success_count": 13,
+  "source_success_count": 15,
   "source_total": 16
 }

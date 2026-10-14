@@ -1,5 +1,5 @@
 {
-  "attempted_at": "2026-10-14T16:37:20.432671+09:00",
+  "attempted_at": "2026-10-14T16:40:58.066784+09:00",
   "sources": [
     {
       "source": "sapporo-inshoku（原記事再確認）",
@@ -8,9 +8,7 @@
     },
     {
       "source": "札幌リスト",
-      "ok": false,
-      "error": "ConnectTimeout",
-      "error_detail": "HTTPSConnectionPool(host='sapporo-list.info', port=443): Max retries exceeded with url: /open/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='sapporo-list.info', port=443) at 0x1c6a5dfd9d0>, 'Connection to sapporo-list.info timed out. (connect timeout=6)'))"
+      "ok": true
     },
     {
       "source": "札幌速報",
@@ -19,8 +17,8 @@
     {
       "source": "リビング札幌",
       "ok": false,
-      "error": "SSLError",
-      "error_detail": "HTTPSConnectionPool(host='mrs.living.jp', port=443): Max retries exceeded with url: /sapporo/newopen (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1010)')))"
+      "error": "AttributeError",
+      "error_detail": "'Response' object has no attribute 'apparent_encoding'"
     },
     {
       "source": "札幌ショップス",
@@ -68,12 +66,10 @@
     },
     {
       "source": "クラシェ 食品出店",
-      "ok": false,
-      "error": "ConnectTimeout",
-      "error_detail": "HTTPSConnectionPool(host='kurache.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='kurache.com', port=443) at 0x1c6a777dac0>, 'Connection to kurache.com timed out. (connect timeout=6)'))"
+      "ok": true
     }
   ],
-  "successful_sources": 13,
+  "successful_sources": 15,
   "accepted_details": 38,
-  "pending": 81
+  "pending": 94
 }
