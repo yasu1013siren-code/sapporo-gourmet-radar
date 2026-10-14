@@ -80,7 +80,7 @@ def get(u):
    client=browser_requests if urlsplit(u).hostname=='mrs.living.jp' else requests
    options={'impersonate':'chrome'} if client is browser_requests else {}
    r=client.get(u,timeout=(15,25),**options,headers={'User-Agent':'SapporoGourmetRadar/1.0 (+public-news-summary)'})
-   r.raise_for_status();r.encoding=r.apparent_encoding;return BeautifulSoup(r.text,'html.parser')
+   r.raise_for_status();return BeautifulSoup(r.content,'html.parser')
   except (requests.RequestException,browser_requests.exceptions.RequestException):
    if attempt:raise
    time.sleep(1)
