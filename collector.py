@@ -4,10 +4,8 @@ import calendar, concurrent.futures, hashlib, json, re, time, unicodedata
 from datetime import datetime, date, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlsplit, urlunsplit
-import truststore
-# Use the maintained OS certificate store, keeping hostname and chain verification.
-truststore.inject_into_ssl()
 import requests
+from curl_cffi import requests as browser_requests
 from bs4 import BeautifulSoup
 
 ROOT=Path(__file__).resolve().parent
@@ -79,9 +77,11 @@ def eligible(r,t):
 def get(u):
  for attempt in range(2):
   try:
-   r=requests.get(u,timeout=(6,18),headers={'User-Agent':'SapporoGourmetRadar/1.0 (+public-news-summary)'})
+   client=browser_requests if urlsplit(u).hostname=='mrs.living.jp' else requests
+   options={'impersonate':'chrome'} if client is browser_requests else {}
+   r=client.get(u,timeout=(15,25),**options,headers={'User-Agent':'SapporoGourmetRadar/1.0 (+public-news-summary)'})
    r.raise_for_status();r.encoding=r.apparent_encoding;return BeautifulSoup(r.text,'html.parser')
-  except requests.RequestException:
+  except (requests.RequestException,browser_requests.exceptions.RequestException):
    if attempt:raise
    time.sleep(1)
 def date_value(s):
