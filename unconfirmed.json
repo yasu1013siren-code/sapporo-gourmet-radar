@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-14T16:40:58.066784+09:00",
+  "checked_at": "2026-10-14T16:43:34.038190+09:00",
   "items": [
     {
       "name": "【4PLA】グルメバーガー日本一の味が札幌に10月9日（木）オープン！神戸発「BRISKSTAND（ブリスクスタンド）」北海道初上陸",
@@ -37,7 +37,7 @@
       "reason": "店名・所在地・実施日を確定できない"
     },
     {
-      "name": "5.hundred (@5.hundred_sapporo) • Instagram photos and videos",
+      "name": "Instagram",
       "url": "https://www.instagram.com/5.hundred_sapporo",
       "source": "mogtrip・新店",
       "first_seen": "2026-10-14",
@@ -65,18 +65,18 @@
       "reason": "店名・所在地・実施日を確定できない"
     },
     {
-      "name": "喫茶 プリモナ (@pu.rimona) • Instagram photos and videos",
+      "name": "Instagram",
       "url": "https://www.instagram.com/pu.rimona",
       "source": "mogtrip・新店",
       "first_seen": "2026-10-14",
-      "reason": "店名・所在地・実施日を確定できない"
+      "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
-      "name": "中華料理　永伸 (@eishin1830) • Instagram photos and videos",
+      "name": "Instagram",
       "url": "https://www.instagram.com/eishin1830",
       "source": "mogtrip・新店",
       "first_seen": "2026-10-14",
-      "reason": "店名・所在地・実施日を確定できない"
+      "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "【札幌市北区】スパイスカレーの「Im Spice」が10月28日で現店舗の営業終了へ。移転先が決まるのを楽しみに待ちましょう",
@@ -100,7 +100,7 @@
       "reason": "店名・所在地・実施日を確定できない"
     },
     {
-      "name": "SPROUT (@sprout_coffeeroastery) • Instagram photos and videos",
+      "name": "Instagram",
       "url": "https://www.instagram.com/sprout_coffeeroastery",
       "source": "mogtrip・新店",
       "first_seen": "2026-10-14",
@@ -212,10 +212,11 @@
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
+      "name": "札幌駅、大通、すすきの、円山の開店・閉店 - リビング札幌Web",
       "url": "https://mrs.living.jp/sapporo/newopen",
-      "source": "リビング札幌Web",
-      "reason": "AttributeError",
-      "error_detail": "'Response' object has no attribute 'apparent_encoding'"
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "閉店情報 – category –",
@@ -396,6 +397,300 @@
       "source": "札幌速報",
       "first_seen": "2026-10-14",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
+    },
+    {
+      "name": "札幌駅、大通、すすきの、円山のランチ・スイーツ・街グルメ - リビング札幌Web",
+      "url": "https://mrs.living.jp/sapporo/town_gourmet",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【開店】札幌市西区「居酒屋　Hachinohe Lover」10月1日（木）オープン！",
+      "url": "https://mrs.living.jp/sapporo/newopen/article/6995079",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【閉店】9月19日（土）閉店！「居酒屋　晩酌処かんろ 発寒店」",
+      "url": "https://mrs.living.jp/sapporo/newopen/article/6995077",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【開店】札幌市西区「布団　渡辺ふとん店」11月1日（日）移転オープン！",
+      "url": "https://mrs.living.jp/sapporo/newopen/article/6995075",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+    },
+    {
+      "name": "【開店】札幌市中央区「ハンバーグ　鉄板ハンバーグ よしだや」9月29日（火）オープン！",
+      "url": "https://mrs.living.jp/sapporo/newopen/article/6995073",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【閉店】10月18日（日）閉店！「洋服　古着屋モーヴ」@札幌市中央区",
+      "url": "https://mrs.living.jp/sapporo/newopen/article/6995071",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+    },
+    {
+      "name": "【開店】「セブン-イレブン 札幌西町北店」10月8日（木）オープン！",
+      "url": "https://mrs.living.jp/sapporo/newopen/article/6995081",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+    },
+    {
+      "name": "【閉店】9月30日（水）閉店！「カレー　ひるまがり」",
+      "url": "https://mrs.living.jp/sapporo/newopen/article/6987809",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【閉店】10月8日（木）閉店！「坂ビスケット売店」",
+      "url": "https://mrs.living.jp/sapporo/newopen/article/6987807",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+    },
+    {
+      "name": "【開店】札幌市中央区「居酒屋　個室居酒屋弐合」9月18日（金）オープン！",
+      "url": "https://mrs.living.jp/sapporo/newopen/article/6970540",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【閉店】8月31日（月）閉店！「ラーメン　平凡くじら屋」",
+      "url": "https://mrs.living.jp/sapporo/newopen/article/6987805",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【開店】「コンビニ　ローソンタイムズステーション札幌駅前店」10月15日（木）オープン！",
+      "url": "https://mrs.living.jp/sapporo/newopen/article/6970538",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+    },
+    {
+      "name": "【開店】札幌市中央区「ラーメン　濃厚味噌ラーメン麹 MIKI」10月6日（火）オープン！",
+      "url": "https://mrs.living.jp/sapporo/newopen/article/6970536",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【開店】札幌市西区「カフェ・喫茶　小樽茶房 No24 HACO店」9月19日（土）オープン！",
+      "url": "https://mrs.living.jp/sapporo/newopen/article/6970534",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【閉店】9月30日（水）閉店！「薬局　コクミンドラッグ 札幌大通西5丁目店」",
+      "url": "https://mrs.living.jp/sapporo/newopen/article/6970532",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+    },
+    {
+      "name": "【開店】札幌市中央区「和食　薫ル風」9月5日（土）移転オープン！",
+      "url": "https://mrs.living.jp/sapporo/newopen/article/6970530",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+    },
+    {
+      "name": "【開店】「焼き鳥　元祖美唄焼鳥 三船 円山店」9月4日（金）オープン！",
+      "url": "https://mrs.living.jp/sapporo/newopen/article/6970528",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【閉店】8月31日（月）閉店！「韓国料理　マビの台所 大通店」",
+      "url": "https://mrs.living.jp/sapporo/newopen/article/6970526",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+    },
+    {
+      "name": "【開店】「マクドナルド札幌すすきの店」10月15日（木）リニューアルオープン！",
+      "url": "https://mrs.living.jp/sapporo/newopen/article/6970524",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+    },
+    {
+      "name": "【開店まとめ】続々開店！札幌市中央区の9月グルメ開店情報",
+      "url": "https://mrs.living.jp/sapporo/newopen/article/6957878",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【開店まとめ】続々開店！札幌・すすきの9月グルメ開店情報",
+      "url": "https://mrs.living.jp/sapporo/newopen/article/6957875",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【開店】ダイニングバー「Seaside Chill 潮結」9月1日（火）オープン！",
+      "url": "https://mrs.living.jp/sapporo/newopen/article/6945393",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【閉店】9月30日（水）閉店！「カフェ・ド・クリエ 札幌駅北口店」",
+      "url": "https://mrs.living.jp/sapporo/newopen/article/6945391",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【閉店まとめ】札幌の9月グルメ閉店情報",
+      "url": "https://mrs.living.jp/sapporo/newopen/article/6957873",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【開店】「味酒屋Sonotoki」8月28日（金）オープン！",
+      "url": "https://mrs.living.jp/sapporo/newopen/article/6945389",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+    },
+    {
+      "name": "【中央区】500円からお釣りが出る！「緑苑スタンド」で立ち食いそば！",
+      "url": "https://mrs.living.jp/sapporo/newopen/reporter/6921892",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "掲載期間外・閉店済み"
+    },
+    {
+      "name": "【開店】「増田うどん」9月リニューアルオープン！",
+      "url": "https://mrs.living.jp/sapporo/newopen/article/6945387",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【閉店】9月27日（日）閉店！「みよしの 中の島店」",
+      "url": "https://mrs.living.jp/sapporo/newopen/article/6945385",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+    },
+    {
+      "name": "【閉店】8月1日（土）閉店！「ごはんバー　人にやさしく　中の島店」",
+      "url": "https://mrs.living.jp/sapporo/newopen/article/6945383",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "10月13日は「さつまいもの日」さつまいものトリビアクイズ | リビング札幌Web",
+      "url": "https://mrs.living.jp/sapporo2/sp/kentei/2410_satumaimo?utm_source=attention-post",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+    },
+    {
+      "name": "10月1日は「国際コーヒーの日」コーヒーのトリビアクイズ | リビング札幌Web",
+      "url": "https://mrs.living.jp/sapporo/a_feature/article/6958754?utm_source=recommends",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "熊本の馬刺しやあか牛をお取り寄せ！おいしく食べて復興を応援",
+      "url": "https://mrs.living.jp/sapporo/a_feature/article/6945299?utm_source=recommends",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+    },
+    {
+      "name": "日本人だからしっかり知りたい！和食の知識検定 | リビング札幌Web",
+      "url": "https://mrs.living.jp/sapporo/a_feature/article/6305834?utm_source=recommends",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+    },
+    {
+      "name": "【最新版】ケーキとドリンク無料！超お得な誕生日特典「六花亭」気になるリニューアル内容は？",
+      "url": "https://mrs.living.jp/sapporo/town_gourmet/reporter/6972711?utm_source=ranking",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【閉店】10月8日（木）閉店！「坂ビスケット売店」",
+      "url": "https://mrs.living.jp/sapporo/newopen/article/6987807?utm_source=ranking",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+    },
+    {
+      "name": "【入場料1200円＆ケーキ648円無料】誕生日特典リニューアル「さっぽろテレビ塔」夜景を堪能！【中央区】",
+      "url": "https://mrs.living.jp/sapporo/town_news/reporter/6972729?utm_source=ranking",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【札幌市手稲区】ここの食べたことある？ 和菓子からケーキ、手作り弁当まで…今チェックしたい手稲の人気グルメ",
+      "url": "https://mrs.living.jp/sapporo/a_feature/article/6992581?utm_source=ranking",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【開店】札幌市中央区「ハンバーグ　鉄板ハンバーグ よしだや」9月29日（火）オープン！",
+      "url": "https://mrs.living.jp/sapporo/newopen/article/6995073?utm_source=ranking",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "【新道東】8月オープン！野菜たっぷり韓国キンパ「ハルキンパ」",
+      "url": "https://mrs.living.jp/sapporo/town_gourmet/reporter/6975033?utm_source=ranking",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+    },
+    {
+      "name": "【閉店】8月31日（月）閉店！「ラーメン　平凡くじら屋」",
+      "url": "https://mrs.living.jp/sapporo/newopen/article/6987805?utm_source=ranking",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "10月13日は「さつまいもの日」さつまいものトリビアクイズ | リビング札幌Web",
+      "url": "https://mrs.living.jp/sapporo2/sp/kentei/2410_satumaimo",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+    },
+    {
+      "name": "10月1日は「国際コーヒーの日」コーヒーのトリビアクイズ | リビング札幌Web",
+      "url": "https://mrs.living.jp/sapporo2/sp/kentei/coffeetrivia2509",
+      "source": "リビング札幌",
+      "first_seen": "2026-10-14",
+      "reason": "店名・所在地・実施日を確定できない"
     },
     {
       "name": "札幌エリアの開店・閉店情報",

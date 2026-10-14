@@ -1,5 +1,5 @@
 {
-  "attempted_at": "2026-10-14T16:40:58.066784+09:00",
+  "attempted_at": "2026-10-14T16:43:34.038190+09:00",
   "sources": [
     {
       "source": "sapporo-inshoku（原記事再確認）",
@@ -16,9 +16,7 @@
     },
     {
       "source": "リビング札幌",
-      "ok": false,
-      "error": "AttributeError",
-      "error_detail": "'Response' object has no attribute 'apparent_encoding'"
+      "ok": true
     },
     {
       "source": "札幌ショップス",
@@ -69,7 +67,7 @@
       "ok": true
     }
   ],
-  "successful_sources": 15,
-  "accepted_details": 38,
-  "pending": 94
+  "successful_sources": 16,
+  "accepted_details": 40,
+  "pending": 136
 }
