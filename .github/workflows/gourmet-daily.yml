@@ -14,7 +14,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   update:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     env:
       PYTHONUTF8: '1'
       PYTHONIOENCODING: utf-8
