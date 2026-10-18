@@ -1,16 +1,14 @@
 {
-  "attempted_at": "2026-10-18T08:37:29.455075+09:00",
+  "attempted_at": "2026-10-19T08:47:52.586031+09:00",
   "sources": [
     {
       "source": "sapporo-inshoku（原記事再確認）",
       "ok": true,
-      "discovered_links": 115
+      "discovered_links": 110
     },
     {
       "source": "札幌リスト",
-      "ok": false,
-      "error": "ConnectTimeout",
-      "error_detail": "HTTPSConnectionPool(host='sapporo-list.info', port=443): Max retries exceeded with url: /open/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='sapporo-list.info', port=443) at 0x7fcfce7e4680>, 'Connection to sapporo-list.info timed out. (connect timeout=15)'))"
+      "ok": true
     },
     {
       "source": "札幌速報",
@@ -66,12 +64,10 @@
     },
     {
       "source": "クラシェ 食品出店",
-      "ok": false,
-      "error": "ConnectTimeout",
-      "error_detail": "HTTPSConnectionPool(host='kurache.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='kurache.com', port=443) at 0x7fcfc7b37dd0>, 'Connection to kurache.com timed out. (connect timeout=15)'))"
+      "ok": true
     }
   ],
-  "successful_sources": 14,
-  "accepted_details": 55,
-  "pending": 119
+  "successful_sources": 16,
+  "accepted_details": 58,
+  "pending": 125
 }
