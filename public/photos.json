@@ -71,12 +71,26 @@
       "official": false,
       "local_image": "assets/photos/06fa89042619fbcf1014.webp",
       "cached_at": "2026-10-11T20:02:57.468724+09:00"
+    },
+    {
+      "name": "ひゃくや 平岸駅前店",
+      "url": "https://sapporo-sokuho.com/archives/post-114073.html",
+      "image": "https://sapporo-sokuho.com/wp-content/uploads/1000013856.jpg",
+      "alt": "ひゃくや 平岸駅前店の紹介記事掲載写真",
+      "source": "札幌速報",
+      "official": false,
+      "checked_at": "2026-10-22",
+      "selection": "matched article thumbnail",
+      "local_image": "assets/photos/6d6cbe51e3f636efd023.webp",
+      "cached_at": "2026-10-22T09:19:31.186871+09:00"
     }
   ],
-  "last_run": "2026-10-21T09:15:30.662391+09:00",
+  "last_run": "2026-10-22T09:19:24.830190+09:00",
   "report": {
-    "attempted_at": "2026-10-21T09:15:30.662391+09:00",
-    "added": [],
+    "attempted_at": "2026-10-22T09:19:24.830190+09:00",
+    "added": [
+      "ひゃくや 平岸駅前店"
+    ],
     "failures": [],
     "skipped": [
       "おすすめ屋 すすきの店",
@@ -88,6 +102,7 @@
       "鉄板ハンバーグよしだや札幌",
       "蕎麦前 酒BAR 福ちゃん家",
       "北海道焼肉 百折歩撓 羊と牛とジビエと海鮮",
+      "オリーブの丘 札幌新琴似店",
       "海鮮酒場 海の灯",
       "オリーブの丘 札幌西町店",
       "Hachinohe Lover",
@@ -100,9 +115,7 @@
       "銀だこハイボール酒場 北24条店",
       "蝦夷の雫とアテ PAIRING × HOKKAIDO",
       "Q ",
-      "宮の森珈琲 札幌リンクタワーカフェ",
-      "Matsu Grill & Bar",
-      "居酒屋 ふる里 赤れんが南店"
+      "宮の森珈琲 札幌リンクタワーカフェ"
     ]
   }
 }
