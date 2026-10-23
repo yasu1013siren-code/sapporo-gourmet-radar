@@ -1,5 +1,5 @@
 {
-  "attempted_at": "2026-10-22T09:18:29.593447+09:00",
+  "attempted_at": "2026-10-23T09:14:45.894015+09:00",
   "sources": [
     {
       "source": "sapporo-inshoku（原記事再確認）",
@@ -40,7 +40,9 @@
     },
     {
       "source": "サッポロファクトリー",
-      "ok": true
+      "ok": false,
+      "error": "HTTPError",
+      "error_detail": "503 Server Error: Service Unavailable for url: https://sapporofactory.jp/event/"
     },
     {
       "source": "焼き芋テラス",
@@ -67,7 +69,7 @@
       "ok": true
     }
   ],
-  "successful_sources": 16,
+  "successful_sources": 15,
   "accepted_details": 53,
-  "pending": 88
+  "pending": 86
 }
