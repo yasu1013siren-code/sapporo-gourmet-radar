@@ -1,130 +1,121 @@
 {
-  "checked_at": "2026-10-23T09:14:45.894015+09:00",
+  "checked_at": "2026-10-24T09:07:47.192730+09:00",
   "items": [
     {
       "name": "【4PLA】グルメバーガー日本一の味が札幌に10月9日（木）オープン！神戸発「BRISKSTAND（ブリスクスタンド）」北海道初上陸",
       "url": "https://satsutter.com/posts/news/33587.html",
       "source": "サツッター・新店舗",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "掲載期間外・閉店済み"
     },
     {
       "name": "【4PLA】まるでホイップ！ふわとろソフトクリーム専門店「の〜すくり〜む」10月9日（木）オープン！",
       "url": "https://satsutter.com/posts/news/33579.html",
       "source": "サツッター・新店舗",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "掲載期間外・閉店済み"
     },
     {
       "name": "焼き鳥食べ飲み放題 おすすめ屋 札幌すすきの店",
       "url": "https://www.hotpepper.jp/strJ004698995",
       "source": "mogtrip・新店",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "店名・所在地・実施日を確定できない"
     },
     {
       "name": "【焼き鳥食べ飲み放題 おすすめ屋 札幌すすきの店】北海道初上陸！南4西3に東京で話題の「焼き鳥食べ飲み放題 おすすめ屋」がオープン！",
       "url": "https://sapporo-list.info/shop/osusumeya-susukino",
       "source": "札幌リスト・開店",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "店名・所在地・実施日を確定できない"
     },
     {
       "name": "【開店】焼き鳥食べ飲み放題 おすすめ屋 札幌すすきの店",
       "url": "https://kaiten-heiten-24.com/osusumeya-susukino",
       "source": "開店閉店.com・札幌",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "店名・所在地・実施日を確定できない"
     },
     {
-      "name": "Instagram",
       "url": "https://www.instagram.com/5.hundred_sapporo",
       "source": "mogtrip・新店",
-      "first_seen": "2026-10-23",
-      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+      "reason": "HTTPError",
+      "error_detail": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2F5.hundred_sapporo&is_from_rle"
     },
     {
       "name": "北海道　焼肉　百折歩撓　羊と牛とジビエと海鮮",
       "url": "https://www.hotpepper.jp/strJ004698510",
       "source": "mogtrip・新店",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "店名・所在地・実施日を確定できない"
     },
     {
       "name": "【札幌市北区】スパイスカレーの「Im Spice」が10月28日で現店舗の営業終了へ。移転先が決まるのを楽しみに待ちましょう",
       "url": "https://sapporokitaku.goguynet.jp/2026/10/13/imspice",
       "source": "号外NET 札幌市北区",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "店名・所在地・実施日を確定できない"
     },
     {
       "name": "居酒屋「新時代」が札幌3店舗目「新時代 札幌麻生店」10月27日（月）オープン！",
       "url": "https://satsutter.com/posts/news/33870.html",
       "source": "サツッター・新店舗",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "掲載期間外・閉店済み"
     },
     {
       "name": "【札幌市北区】北24条に「ニャンと一杯」が10月1日オープン！カフェ＆ゆる呑みを楽しめる隠れ家のようなお店",
       "url": "https://sapporokitaku.goguynet.jp/2026/09/28/nyanto1pai",
       "source": "号外NET 札幌市北区",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "店名・所在地・実施日を確定できない"
-    },
-    {
-      "name": "Yahoo!ニュース",
-      "url": "https://news.yahoo.co.jp/articles/be69748cce3c35ec93ac5dfe9dc80072c8c9de30",
-      "source": "e-HAKODATE・道南ニュース",
-      "first_seen": "2026-10-23",
-      "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "【開店】炭火やBB南郷13丁目店",
       "url": "https://kaiten-heiten-24.com/sumibiyabb-nango13chome",
       "source": "開店閉店.com・札幌",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "近日中の開店・閉店情報",
       "url": "https://sapporo-sokuho.com/archives/post-3016.html",
       "source": "札幌速報・開店閉店一覧",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "ちょいおでん 札幌澄川店",
       "url": "https://choioden.com/sapporosumikawa",
       "source": "店舗公式",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "店名・所在地・実施日を確定できない"
     },
     {
-      "name": "Instagram",
       "url": "https://www.instagram.com/hachinohelover",
       "source": "mogtrip・新店",
-      "first_seen": "2026-10-23",
-      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+      "reason": "HTTPError",
+      "error_detail": "429 Client Error: Too Many Requests for url: https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fhachinohelover&is_from_rle"
     },
     {
       "name": "【街角のレモンベーカリー琴似店】イオン札幌琴似店にレモンベーカリーの2号店がオープン！琴似店限定の新商品も",
       "url": "https://sapporo-list.info/shop/lemonbakery-kotoni",
       "source": "札幌リスト・開店",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "店名・所在地・実施日を確定できない"
     },
     {
       "name": "【開店】街角のレモンベーカリー琴似店",
       "url": "https://kaiten-heiten-24.com/machikadonolemonbakery-kotoni",
       "source": "開店閉店.com・札幌",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "店名・所在地・実施日を確定できない"
     },
     {
       "name": "【新店】札幌市厚別区に『カルディコーヒーファム 新さっぽろサンピアザ店』が2026年よりオープン！",
       "url": "https://chamonix-cakes.com/kaiten-abcjt8fa0067bq2bno",
       "source": "札幌開店閉店インフォ",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "店名・所在地・実施日を確定できない"
     },
     {
@@ -137,42 +128,42 @@
       "name": "【新店 手稲】お昼前には完売続出！？前田にオープンした話題のベーカリー「ぱん処みしま屋」へ行ってきました！",
       "url": "https://teine-magazine.com/%e3%80%90%e6%96%b0%e5%ba%97-%e6%89%8b%e7%a8%b2%e3%80%91%e3%81%8a%e6%98%bc%e5%89%8d%e3%81%ab%e3%81%af%e5%ae%8c%e5%a3%b2%e7%b6%9a%e5%87%ba%ef%bc%81%ef%bc%9f%e5%89%8d%e7%94%b0%e3%81%ab%e3%82%aa%e3%83%bc",
       "source": "手稲マガジン・開店閉店",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "店名・所在地・実施日を確定できない"
     },
     {
       "name": "北海道初上陸「ANELLA CAFE 札幌清田店」10月30日オープン！保護犬猫ふれあい×家族探し×就労支援の“三方良し”モデル",
       "url": "https://satsutter.com/posts/news/34066.html",
       "source": "サツッター・新店舗",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "函館市西旭岡町にCafe Ikazuwaが9/24開店｜営業は木金土の10-15時だけ、12席・駐車3台・現金のみ",
       "url": "https://hakodate.8agarage.co.jp/hakodate-cafe-ikazuwa-open-2026-09-24",
       "source": "函館イベントナビ",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "【開店】函館市に『Cafe Ikazuwa』が2026年09月24日(木)よりOPEN!!",
       "url": "https://www.shopship.jp/hakodate/open-close/cafeikazuwa_hakodate",
       "source": "函館ショップス・開店閉店",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "【函館市】2026年10月31日（土）で西桔梗町にある『中華桃園』が閉店するそうです。",
       "url": "https://hakodate.goguynet.jp/2026/08/17/chuka-toyen",
       "source": "号外NET 函館市",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "店名・所在地・実施日を確定できない"
     },
     {
       "name": "函館オープン【箱膳】でランチ！とろける牛まぶしと半尾うなぎで贅沢時間",
       "url": "https://hakodate.blog/archives/86840",
       "source": "函館の飲み食い日記",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
@@ -185,420 +176,448 @@
       "name": "【札幌】2026年10月にオープンするお店",
       "url": "https://sapporo-list.info/open/october-open",
       "source": "札幌リスト",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "現在、メンテナンス中です。",
       "url": "https://mrs.living.jp/sapporo/newopen",
       "source": "リビング札幌",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "閉店情報 – category –",
       "url": "https://sapporo-sokuho.com/archives/category/開店・閉店/閉店情報",
       "source": "札幌速報",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "さっぽろ焼き芋テラス2026",
       "url": "https://sapporo-yakiimoterrace.com/",
       "source": "焼き芋テラス",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "店名・所在地・実施日を確定できない"
     },
     {
       "name": "【開店】札幌市清田区にカフェ『Yagien softcream & coffee』が2026年09月20日(日)よりOPEN!!",
       "url": "https://www.shopship.jp/kiyota/open-close/yagien-softcream-coffee",
       "source": "札幌ショップス・開店閉店",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "掲載期間外・閉店済み"
     },
     {
       "name": "【開店】札幌市北区 北12条駅近くにカフェ『SPROUT 札幌店』が2026年09月20日(日)よりOPEN!!",
       "url": "https://www.shopship.jp/sapporo/open-close/sprout_coffeeroastery_sapporo",
       "source": "札幌ショップス",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "掲載期間外・閉店済み"
     },
     {
       "name": "【開店】札幌市中央区 すすきのに中華料理店『中華料理 永伸』が2026年09月14日(月)よりOPEN!!",
       "url": "https://www.shopship.jp/susukino/open-close/eishin1830",
       "source": "札幌ショップス",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "掲載期間外・閉店済み"
     },
     {
       "name": "【開店】札幌市中央区に居酒屋『個室居酒屋弐合』が2026年09月18日(金)よりOPEN!!",
       "url": "https://www.shopship.jp/sapporo/open-close/izakaya_nigou",
       "source": "札幌ショップス",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "掲載期間外・閉店済み"
     },
     {
       "name": "【開店】札幌駅北口に居酒屋『原始焼き酒場ルンゴカーニバル 極』が2026年09月19日(土)より移転OPEN!!",
       "url": "https://www.shopship.jp/sapporo/open-close/lungocarnival-kiwame",
       "source": "札幌ショップス",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "掲載期間外・閉店済み"
     },
     {
       "name": "【開店】札幌市中央区 円山にカフェ『喫茶プリモナ』が2026年09月18日(金)よりOPEN!!",
       "url": "https://www.shopship.jp/sapporo/open-close/pu-rimona",
       "source": "札幌ショップス",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "掲載期間外・閉店済み"
     },
     {
       "name": "第138回 全国うまいもの大会 | 丸井今井札幌本店 | 丸井今井 店舗情報",
       "url": "https://www.maruiimai.mistore.jp/sapporo/event_calendar/umaimono/index.html",
       "source": "丸井今井公式",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "食品催事候補：会期の年・売場を要確認"
     },
     {
       "name": "",
       "url": "https://www.daimaru.co.jp/sapporo/topics/gourmet-168401.html",
       "source": "大丸札幌公式",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "クラシェ kuraché",
       "url": "https://kurache.com/",
       "source": "クラシェ 食品出店",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "現在、メンテナンス中です。",
       "url": "https://mrs.living.jp/sapporo/newopen/article/6936697",
       "source": "リビング札幌",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "現在、メンテナンス中です。",
       "url": "https://mrs.living.jp/sapporo/town_gourmet/reporter/6998061?utm_source=ranking",
       "source": "リビング札幌",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "札幌にオープンするお店の開店情報まとめ",
       "url": "https://sapporo-list.info/open",
       "source": "札幌リスト",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "札幌の定食情報まとめ | 札幌リスト",
       "url": "https://sapporo-list.info/shop-cat/setmeal",
       "source": "札幌リスト",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "開店・閉店 – category –",
       "url": "https://sapporo-sokuho.com/archives/category/開店・閉店",
       "source": "札幌速報",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "米国発のアウトドアブランド「Eddie Bauer」がサッポロファクトリーに10月23日オープン！",
       "url": "https://sapporo-sokuho.com/archives/post-114712.html",
       "source": "札幌速報",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "スクイーズ専門店『PUNIKKO by TOKOTOYZ COCONO SUSUKINO店』が10月30日オープン！",
       "url": "https://sapporo-sokuho.com/archives/post-114377.html",
       "source": "札幌速報",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "北海道初の常設店！『MAISON CACAO 大丸札幌店』が10月21日オープン！「アロマ生チョコレート」や北海道限定の新作ショコラも",
       "url": "https://sapporo-sokuho.com/archives/post-114338.html",
       "source": "札幌速報",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "ザ・ビッグが千歳市初出店！『ザ・ビッグ 千歳武道館前店』が10月23日（金）オープン！",
       "url": "https://sapporo-sokuho.com/archives/post-114248.html",
       "source": "札幌速報",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "『こころ整骨院 新札幌サンピアザ院』が10月19日オープン！",
       "url": "https://sapporo-sokuho.com/archives/post-114152.html",
       "source": "札幌速報",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "歴史ある港町に新たなコンテナ型店舗『タリーズコーヒー 小樽ポートスクエア店』が10月16日オープン！",
       "url": "https://sapporo-sokuho.com/archives/post-113977.html",
       "source": "札幌速報",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "所在地が対象地域外"
     },
     {
       "name": "「イオン札幌平岡店」1階直営売場が10月17日（土）リニューアルオープン！",
       "url": "https://sapporo-sokuho.com/archives/post-113844.html",
       "source": "札幌速報",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "発寒の公衆浴場『滝の湯』が10月末をもって閉店",
       "url": "https://sapporo-sokuho.com/archives/post-113641.html",
       "source": "札幌速報",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
+      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+    },
+    {
+      "name": "丘珠空港周辺の「回転寿しトリトン」でトキエアの食事券（ミールクーポン）が利用可能に",
+      "url": "https://sapporo-sokuho.com/archives/post-114842.html",
+      "source": "札幌速報",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "SAPPORO STREAM HOTELにて、サウナや朝食も楽しめる、レンタルフルセット付「札幌藻岩山スキー場」コラボ特別宿泊プランを販売！",
       "url": "https://sapporo-sokuho.com/archives/post-114779.html",
       "source": "札幌速報",
-      "first_seen": "2026-10-23",
-      "reason": "見出しに飲食・グルメの根拠がないため要確認"
-    },
-    {
-      "name": "侵食型絵画展「視てはいけない絵画展」で話題の『閉館後の絵画展』が札幌で開催決定！",
-      "url": "https://sapporo-sokuho.com/archives/post-114789.html",
-      "source": "札幌速報",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "パーソナルジム『APT ROOM 札幌北24条店』が10月10日オープン！",
       "url": "https://sapporo-sokuho.com/archives/post-112432.html",
       "source": "札幌速報",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "グルメ対象外"
     },
     {
       "name": "札幌エリアの開店・閉店情報",
       "url": "https://www.shopship.jp/sapporo/open-close",
       "source": "札幌ショップス",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "開店・閉店情報",
       "url": "https://www.shopship.jp/open-close",
       "source": "札幌ショップス",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "2026年10月オープン店舗一覧",
       "url": "https://www.shopship.jp/open-shop-list",
       "source": "札幌ショップス",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "【閉店】札幌市清田区のラーメン屋『ラーメン296 清田・国際大学前店』が2026年11月30日(月)をもって閉店",
       "url": "https://www.shopship.jp/kiyota/open-close/ramen_296",
       "source": "札幌ショップス",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "店名・所在地・実施日を確定できない"
     },
     {
       "name": "【開店】札幌市北区 麻生に『HOKKAIDO SOUPLAB 禾』が2026年10月07日(水)よりOPEN!!",
       "url": "https://www.shopship.jp/sapporo/open-close/hokkaido_souplab_niki",
       "source": "札幌ショップス",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "【開店】札幌市中央区 すすきのに『ななかま堂64』が2026年10月08日(木)よりOPEN!!",
       "url": "https://www.shopship.jp/susukino/open-close/nanakamadou64",
       "source": "札幌ショップス",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "【閉店】札幌市豊平区の蕎麦屋『平岸三条そば』が2026年08月31日(月)をもって閉店",
       "url": "https://www.shopship.jp/toyohira/open-close/hiragishi-3jo-soba",
       "source": "札幌ショップス",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "掲載期間外・閉店済み"
     },
     {
       "name": "開店情報",
       "url": "https://www.shopship.jp/sapporo/open-close?open-close_category=shop-open",
       "source": "札幌ショップス",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "閉店情報",
       "url": "https://www.shopship.jp/sapporo/open-close?open-close_category=shop-close",
       "source": "札幌ショップス",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "",
       "url": "https://www.kita3jo-plaza.jp/event",
       "source": "北3条広場",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "",
       "url": "https://www.sapporo-chikamichi.jp/event",
       "source": "チ・カ・ホ",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "",
       "url": "https://www.sapporo-chikamichi.jp/event/detail.asp?id=11367",
       "source": "チ・カ・ホ",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "札幌三越 | 三越 店舗情報 | 三越伊勢丹公式サイト",
       "url": "https://www.mitsukoshi.mistore.jp/sapporo.html",
       "source": "札幌三越",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "SHOP & RESTAURANT",
       "url": "https://www.mitsukoshi.mistore.jp/content/mitsukoshi/mistore/sapporo/shop_search.html?category_search[]=food",
       "source": "札幌三越",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "丸井今井札幌本店 | 丸井今井 店舗情報",
       "url": "https://www.maruiimai.mistore.jp/sapporo.html",
       "source": "丸井今井",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "SHOP & RESTAURANT",
       "url": "https://www.maruiimai.mistore.jp/content/maruiimai/mistore/sapporo/shop_search.html?category_search[]=food",
       "source": "丸井今井",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
+      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+    },
+    {
+      "name": "EVENT イベント",
+      "url": "https://sapporofactory.jp/event",
+      "source": "サッポロファクトリー",
+      "first_seen": "2026-10-24",
+      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+    },
+    {
+      "name": "RESTAURANT・FOOD レストラン・フード",
+      "url": "https://sapporofactory.jp/restaurantfood",
+      "source": "サッポロファクトリー",
+      "first_seen": "2026-10-24",
+      "reason": "店名・所在地・実施日を確定できない"
+    },
+    {
+      "name": "EVENT イベント",
+      "url": "https://sapporofactory.jp/event/detail/669",
+      "source": "サッポロファクトリー",
+      "first_seen": "2026-10-24",
+      "reason": "見出しに飲食・グルメの根拠がないため要確認"
+    },
+    {
+      "name": "EVENT イベント",
+      "url": "https://sapporofactory.jp/event/detail/667",
+      "source": "サッポロファクトリー",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "【2026出店・限定商品紹介】焼き芋4店舗が初出店！会場限定のお芋スイーツやクラフトビールも多数登場",
       "url": "https://sapporo-yakiimoterrace.com/2026info-2",
       "source": "焼き芋テラス",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "店名・所在地・実施日を確定できない"
     },
     {
       "name": "ほっぺタウン",
       "url": "https://www.daimaru.co.jp/sapporo/hoppetown",
       "source": "大丸札幌 食品催事",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "",
       "url": "https://www.daimaru.co.jp/sapporo",
       "source": "大丸札幌 グルメ企画",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "SHOP NEWS",
       "url": "https://www.mitsukoshi.mistore.jp/sapporo/shops/foods/foods/shopnews_list.html",
       "source": "札幌三越 食品ニュース",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "食品（生鮮品・惣菜・和洋酒・和洋グロッサリー）",
       "url": "https://www.mitsukoshi.mistore.jp/sapporo/shops/foods/foods.html",
       "source": "札幌三越 食品ニュース",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "食品催事候補：会期の年・売場を要確認"
     },
     {
       "name": "CALENDAR",
       "url": "https://www.maruiimai.mistore.jp/sapporo/event_calendar.html",
       "source": "丸井今井 食品催事",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "くまのしっぽ ～絵本のせかいのお菓子屋さん～（札幌市西区）－kuraché（クラシェ）2026.10「秋をほおばる」出店者",
       "url": "https://kurache.com/blog?p=18776",
       "source": "クラシェ 食品出店",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "食品催事候補：会期の年・売場を要確認"
     },
     {
       "name": "発酵カフェ＆健康食品の店　 北の利右ヱ門（札幌市南区）－kuraché（クラシェ）2026.10「秋をほおばる」出店者",
       "url": "https://kurache.com/blog?p=18782",
       "source": "クラシェ 食品出店",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "食品催事候補：会期の年・売場を要確認"
     },
     {
       "name": "フィナンシェと珈琲　Rire Sourire（三笠市）－kuraché（クラシェ）2026.10「秋をほおばる」出店者",
       "url": "https://kurache.com/blog?p=18787",
       "source": "クラシェ 食品出店",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "食品催事候補：会期の年・売場を要確認"
     },
     {
       "name": "焼き菓子Ritto（千歳市）－kuraché（クラシェ）2026.10「秋をほおばる」出店者",
       "url": "https://kurache.com/blog?p=18808",
       "source": "クラシェ 食品出店",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "食品催事候補：会期の年・売場を要確認"
     },
     {
       "name": "米粉菓子店cuddle（帯広市）－kuraché（クラシェ）2026.10「秋をほおばる」出店者",
       "url": "https://kurache.com/blog?p=18856",
       "source": "クラシェ 食品出店",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "食品催事候補：会期の年・売場を要確認"
     },
     {
       "name": "kuraché（クラシェ）2017.3「地麦が好き、パンが好き」を3/1（水）～3/7（火）開催します",
       "url": "https://kurache.com/blog?p=9614",
       "source": "クラシェ 食品出店",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "食品催事候補：会期の年・売場を要確認"
     },
     {
       "name": "kuraché（クラシェ）2015.07「静岡茶と味わう北海道スイーツ」を7/6（月）～7/12（日）開催します",
       "url": "https://kurache.com/blog?p=5716",
       "source": "クラシェ 食品出店",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "食品催事候補：会期の年・売場を要確認"
     },
     {
       "name": "kuraché（クラシェ）2016.3「道産小麦の美味しい食卓」を3/14（月）～3/20（日）開催します",
       "url": "https://kurache.com/blog?p=7635",
       "source": "クラシェ 食品出店",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "見出しに飲食・グルメの根拠がないため要確認"
     },
     {
       "name": "kuraché（クラシェ）2015.2「パンとおとも」を2/23（月）～3/1（日）開催します",
       "url": "https://kurache.com/blog?p=5134",
       "source": "クラシェ 食品出店",
-      "first_seen": "2026-10-23",
+      "first_seen": "2026-10-24",
       "reason": "食品催事候補：会期の年・売場を要確認"
     }
   ]
