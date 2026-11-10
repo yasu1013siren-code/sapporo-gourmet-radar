@@ -1,10 +1,10 @@
 {
-  "attempted_at": "2026-11-09T10:18:16.668325+09:00",
+  "attempted_at": "2026-11-10T12:53:32.804161+09:00",
   "sources": [
     {
       "source": "sapporo-inshoku（原記事再確認）",
       "ok": true,
-      "discovered_links": 35
+      "discovered_links": 28
     },
     {
       "source": "札幌リスト",
@@ -68,6 +68,6 @@
     }
   ],
   "successful_sources": 16,
-  "accepted_details": 26,
-  "pending": 102
+  "accepted_details": 24,
+  "pending": 101
 }
