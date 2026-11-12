@@ -1,5 +1,5 @@
 {
-  "attempted_at": "2026-11-11T10:35:36.952843+09:00",
+  "attempted_at": "2026-11-12T11:36:07.241884+09:00",
   "sources": [
     {
       "source": "sapporo-inshoku（原記事再確認）",
@@ -69,5 +69,5 @@
   ],
   "successful_sources": 16,
   "accepted_details": 22,
-  "pending": 104
+  "pending": 107
 }
