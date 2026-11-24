@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-11-23T11:04:13.800291+09:00",
+  "last_run": "2026-11-24T14:40:32.407474+09:00",
   "status": "success",
   "items": [
     {
@@ -207,11 +207,11 @@
       "url": "https://www.shopship.jp/sapporo/open-close/michiru-dkdining-sapporo",
       "source": "札幌ショップス・中央区",
       "official": false,
-      "checked_at": "2026-11-23",
+      "checked_at": "2026-11-24",
       "contacts": {
         "reservation_url": "https://tabelog.com/hokkaido/A0101/A010101/1085998/",
         "source_url": "https://www.shopship.jp/sapporo/open-close/michiru-dkdining-sapporo",
-        "checked_at": "2026-11-23"
+        "checked_at": "2026-11-24"
       },
       "aliases": [
         9214983694652
@@ -820,11 +820,11 @@
       "url": "https://www.shopship.jp/susukino/open-close/moriokake_2026",
       "source": "札幌ショップス",
       "official": false,
-      "checked_at": "2026-11-23",
+      "checked_at": "2026-11-24",
       "contacts": {
         "reservation_url": "https://tabelog.com/hokkaido/A0101/A010104/1086153/",
         "source_url": "https://www.shopship.jp/susukino/open-close/moriokake_2026",
-        "checked_at": "2026-11-23"
+        "checked_at": "2026-11-24"
       },
       "aliases": [
         215574191651240
@@ -867,11 +867,11 @@
       "url": "https://www.shopship.jp/susukino/open-close/odentosakana-shinoya_susukino",
       "source": "札幌ショップス",
       "official": false,
-      "checked_at": "2026-11-23",
+      "checked_at": "2026-11-24",
       "contacts": {
         "reservation_url": "https://tabelog.com/hokkaido/A0101/A010103/1086177/",
         "source_url": "https://www.shopship.jp/susukino/open-close/odentosakana-shinoya_susukino",
-        "checked_at": "2026-11-23"
+        "checked_at": "2026-11-24"
       },
       "aliases": [
         235332505352102
@@ -1235,11 +1235,11 @@
       "url": "https://sapporo-sokuho.com/archives/post-114917.html",
       "source": "札幌速報",
       "official": false,
-      "checked_at": "2026-11-23",
+      "checked_at": "2026-11-24",
       "contacts": {
         "phone": "011-590-5073",
         "source_url": "https://sapporo-sokuho.com/archives/post-114917.html",
-        "checked_at": "2026-11-23"
+        "checked_at": "2026-11-24"
       },
       "aliases": [
         247429092676376
@@ -1258,11 +1258,11 @@
       "url": "https://www.shopship.jp/kiyota/open-close/ramen_296",
       "source": "札幌ショップス",
       "official": false,
-      "checked_at": "2026-11-23",
+      "checked_at": "2026-11-24",
       "contacts": {
         "reservation_url": "https://tabelog.com/hokkaido/A0101/A010304/1069931/",
         "source_url": "https://www.shopship.jp/kiyota/open-close/ramen_296",
-        "checked_at": "2026-11-23"
+        "checked_at": "2026-11-24"
       },
       "aliases": [
         159510931308230,
@@ -1282,11 +1282,11 @@
       "url": "https://www.shopship.jp/susukino/open-close/sapporoen_yakiniku",
       "source": "札幌ショップス",
       "official": false,
-      "checked_at": "2026-11-23",
+      "checked_at": "2026-11-24",
       "contacts": {
         "reservation_url": "https://tabelog.com/hokkaido/A0101/A010103/1086269/",
         "source_url": "https://www.shopship.jp/susukino/open-close/sapporoen_yakiniku",
-        "checked_at": "2026-11-23"
+        "checked_at": "2026-11-24"
       },
       "aliases": [
         63772349194020
@@ -1328,11 +1328,11 @@
       "url": "https://www.shopship.jp/sapporo/open-close/tomoe-sushi_tanuki",
       "source": "札幌ショップス",
       "official": false,
-      "checked_at": "2026-11-23",
+      "checked_at": "2026-11-24",
       "contacts": {
         "reservation_url": "https://tabelog.com/hokkaido/A0101/A010103/1086167/",
         "source_url": "https://www.shopship.jp/sapporo/open-close/tomoe-sushi_tanuki",
-        "checked_at": "2026-11-23"
+        "checked_at": "2026-11-24"
       },
       "aliases": [
         227812380888883
@@ -1351,11 +1351,11 @@
       "url": "https://sapporo-sokuho.com/archives/post-115779.html",
       "source": "札幌速報",
       "official": false,
-      "checked_at": "2026-11-23",
+      "checked_at": "2026-11-24",
       "contacts": {
         "phone": "011-205-3729",
         "source_url": "https://sapporo-sokuho.com/archives/post-115779.html",
-        "checked_at": "2026-11-23"
+        "checked_at": "2026-11-24"
       },
       "aliases": [
         170503760975889
@@ -1374,11 +1374,11 @@
       "url": "https://www.shopship.jp/sapporo/open-close/hookusui_sapporo",
       "source": "札幌ショップス",
       "official": false,
-      "checked_at": "2026-11-23",
+      "checked_at": "2026-11-24",
       "contacts": {
         "reservation_url": "https://tabelog.com/hokkaido/A0101/A010101/1086320/",
         "source_url": "https://www.shopship.jp/sapporo/open-close/hookusui_sapporo",
-        "checked_at": "2026-11-23"
+        "checked_at": "2026-11-24"
       },
       "aliases": [
         236499878847197
@@ -1397,7 +1397,7 @@
       "url": "https://sapporo-sokuho.com/archives/post-116031.html",
       "source": "札幌速報",
       "official": false,
-      "checked_at": "2026-11-23",
+      "checked_at": "2026-11-24",
       "aliases": [
         155128347493422
       ]
@@ -1415,7 +1415,7 @@
       "url": "https://sapporo-sokuho.com/archives/post-116131.html",
       "source": "札幌速報",
       "official": false,
-      "checked_at": "2026-11-23",
+      "checked_at": "2026-11-24",
       "aliases": [
         45090641180075
       ]
@@ -1433,7 +1433,7 @@
       "url": "https://sapporo-sokuho.com/archives/post-116219.html",
       "source": "札幌速報",
       "official": false,
-      "checked_at": "2026-11-23",
+      "checked_at": "2026-11-24",
       "aliases": [
         217895815431887
       ]
@@ -1451,7 +1451,7 @@
       "url": "https://www.shopship.jp/sapporo/open-close/hagakure_sapporo-apia",
       "source": "札幌ショップス",
       "official": false,
-      "checked_at": "2026-11-23",
+      "checked_at": "2026-11-24",
       "aliases": [
         39158763857967
       ]
@@ -1469,11 +1469,11 @@
       "url": "https://www.shopship.jp/susukino/open-close/hiro-susukino-ramen",
       "source": "札幌ショップス",
       "official": false,
-      "checked_at": "2026-11-23",
+      "checked_at": "2026-11-24",
       "contacts": {
         "reservation_url": "https://tabelog.com/hokkaido/A0101/A010103/1086393/",
         "source_url": "https://www.shopship.jp/susukino/open-close/hiro-susukino-ramen",
-        "checked_at": "2026-11-23"
+        "checked_at": "2026-11-24"
       },
       "aliases": [
         126067628942432
@@ -1492,7 +1492,7 @@
       "url": "https://sapporo-sokuho.com/archives/post-116638.html",
       "source": "札幌速報",
       "official": false,
-      "checked_at": "2026-11-23",
+      "checked_at": "2026-11-24",
       "aliases": [
         227435434214203
       ]
@@ -1510,7 +1510,7 @@
       "url": "https://sapporo-sokuho.com/archives/post-116649.html",
       "source": "札幌速報",
       "official": false,
-      "checked_at": "2026-11-23",
+      "checked_at": "2026-11-24",
       "aliases": [
         163287565517607
       ]
