@@ -83,12 +83,26 @@
       "selection": "matched article thumbnail",
       "local_image": "assets/photos/6d6cbe51e3f636efd023.webp",
       "cached_at": "2026-10-22T09:19:31.186871+09:00"
+    },
+    {
+      "name": "漣〜SAZANAMI〜",
+      "url": "https://sapporo-sokuho.com/archives/post-114964.html",
+      "image": "https://sapporo-sokuho.com/wp-content/uploads/01_sazanami-tokusen.jpg",
+      "alt": "漣〜SAZANAMI〜の紹介記事掲載写真",
+      "source": "札幌速報",
+      "official": false,
+      "checked_at": "2026-11-26",
+      "selection": "matched article thumbnail",
+      "local_image": "assets/photos/1ad0c8d187c8dbb1d62f.webp",
+      "cached_at": "2026-11-26T12:51:31.573804+09:00"
     }
   ],
-  "last_run": "2026-11-25T13:42:29.835243+09:00",
+  "last_run": "2026-11-26T12:51:25.754179+09:00",
   "report": {
-    "attempted_at": "2026-11-25T13:42:29.835243+09:00",
-    "added": [],
+    "attempted_at": "2026-11-26T12:51:25.754179+09:00",
+    "added": [
+      "漣〜SAZANAMI〜"
+    ],
     "failures": [],
     "skipped": [
       "おすすめ屋 すすきの店",
@@ -100,7 +114,6 @@
       "すすきの横丁居酒屋",
       "鉄板ハンバーグよしだや札幌",
       "オリーブの丘 札幌新琴似店",
-      "海鮮酒場 海の灯",
       "オリーブの丘 札幌西町店",
       "Hachinohe Lover",
       "銀だこハイボール酒場 北24条店",
